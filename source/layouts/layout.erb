@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><%= current_page.data.title %></title>
+		<meta name="description" content="<%= current_page.data.description %>">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag "modernizr-2.8.3.min" %>
+	</head>
+	<body>
+    <!--[if lt IE 10]>
+		<p class="browserupgrade">你正在使用过时的浏览器，请 <a href="http://browsehappy.com/">升级你的浏览器</a> 来感受更好的上网体验。</p>
+		<![endif]-->
+		<%= yield %>
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-33658695-1');ga('send','pageview');
+    </script>
+	</body>
+</html>

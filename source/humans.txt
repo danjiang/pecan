@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Founder: Dan Jiang
+	Contact: dan [at] danthought.com
+	Twitter: @dantstudio
+	From: Chengdu, Sichuan, China
+
+# THANKS
+
+	Everyone help me
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
