@@ -1,7 +1,20 @@
 @charset "utf-8";
 @import "normalize";
+@import "grid";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+$open-sans: "open-sans",sans-serif;
+$base-font-size: 16px;
+$brand-color: #E60012;
+$text-color: #4C4C4C;
+$dark-color: #000000;
+$light-dark-color: #222222;
+$light-color: #FFFFFF;
+
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}
 
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
@@ -105,21 +118,144 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  color: $text-color;
+	font-size: $base-font-size;
+  line-height: 1.4;
+  background-color: $light-dark-color;
+  font-family: $open-sans;
+  font-weight: normal;
+}
 
+h1, h2, h3, h4 {
+	padding: 0;
+	margin: 0;
+}
 
+h1 {
+  font-size: em(63.97px);
+	@media only screen and (max-width: 600px) {
+		font-size: em(57.571px);
+	}
+}
 
+h2 { 
+  font-size: em(45.23px);
+	@media only screen and (max-width: 600px) {
+		font-size: em(40.709px);
+	}
+}
 
+h3 {
+  font-size: em(31.98px);
+	@media only screen and (max-width: 600px) {
+		font-size: em(28.786px);
+	}
+}
 
+h4 {
+  font-size: em(22.62px);
+	@media only screen and (max-width: 600px) {
+		font-size: em(20.362px);
+	}
+}
 
+div.wrapper {
+	max-width: 960px;
+	width: 100%;
+	margin: auto;
+	@media only screen and (max-width: 600px) {
+		width: 90%;
+	}
+}
 
+header {
+  background-color: $dark-color;
+	height: 100px;
+	h1 {
+		@include column(4);
+		img {
+			max-width: 100%;
+			width: 201px;
+			height: 46px;
+		}
+	}
+	ul {
+		@include column(8);
+		padding: 0;
+		text-align: right;
+		li {
+			display: inline-block;
+			padding-top: 14px;
+			margin-left: 60px;
+			a {
+				text-align: center;
+				color: $light-color;
+				text-decoration: none;
+				&:hover {
+					color: $brand-color;
+				}
+				div.icon {
+					font-size: em(28px);
+				}
+				div.text {
+					margin-top: 6px;
+					font-size: em(18px);
+				}
+			}
+		}
+	}
+}
 
+footer {
+	height: 100px;
+	h2 {
+		@include column(6);
+		font-size: em(20px);
+		font-weight: normal;
+		padding-top: 38px;
+		a {
+			color: $light-color;
+			text-decoration: none;
+			&:hover {
+				color: $brand-color;
+			}
+			img {
+				max-width: 100%;
+				width: 30px;
+				height: 30px;
+			}
+			span {
+				margin-left: 10px;
+				vertical-align: middle;
+			}
+		}
+	}
+	ul {
+		@include column(6);
+		padding: 0;
+		text-align: right;
+		li {
+			display: inline-block;
+			padding-top: 42px;
+			margin-left: 30px;
+			a {
+				color: $light-color;
+				text-decoration: none;
+				&:hover {
+					color: $brand-color;
+				}
+				i {
+					font-size: em(20px);
+				}
+			}
+		}
+	}
+}
 
-
-
-
-
-
-
+section {
+	background-color: $dark-color;
+}
 
 /* ==========================================================================
    Helper classes

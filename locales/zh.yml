@@ -1,0 +1,25 @@
+---
+zh:
+  browse_happy: 
+    part1: 你正在使用过时的浏览器，请
+    part2: 升级你的浏览器
+    part3: 来感受更好的上网体验。
+  site_url: /
+  brand: Wuhoo
+  slogan: 优秀的应用只为健康的生活方式
+  products: 产品目录
+  guides: 帮助文档
+  support: 客服支持
+  language: English
+  calorie_ios:
+    name: 热量助手
+    device: iPhone 和 iPad 版
+  calorie_mac:
+    name: 热量助手
+    device: Mac 版
+  track_iphone:
+    name: 健康日记
+    device: iPhone 版
+  timer_ios:
+    name: 计时器
+    device: 努力开发中

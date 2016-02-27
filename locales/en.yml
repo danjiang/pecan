@@ -1,0 +1,25 @@
+---
+en:
+  browse_happy: 
+    part1: You are using an outdated browser. Please
+    part2: upgrade your browser
+    part3: to improve your experience.
+  site_url: /zh
+  brand: Wuhoo
+  slogan: Awesome apps for healthy lifestyle
+  products: Products
+  guides: Guides
+  support: Support
+  language: 简体中文
+  calorie_ios:
+    name: Calorie
+    device: iPhone & iPad
+  calorie_mac:
+    name: Calorie
+    device: Mac
+  track_iphone:
+    name: Health Diary
+    device: iPhone
+  timer_ios:
+    name: Timer
+    device: comming soon

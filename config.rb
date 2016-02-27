@@ -18,6 +18,8 @@ page '/*.txt', layout: false
 
 # General configuration
 
+activate :i18n
+
 ###
 # Helpers
 ###
