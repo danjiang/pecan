@@ -13,13 +13,13 @@ en:
   language: 简体中文
   calorie_ios:
     name: Calorie
-    device: iPhone & iPad
+    device: for iPhone & iPad
   calorie_mac:
     name: Calorie
-    device: Mac
+    device: for Mac
   track_iphone:
     name: Health Diary
-    device: iPhone
+    device: for iPhone
   timer_ios:
     name: Timer
-    device: comming soon
+    device: Comming soon

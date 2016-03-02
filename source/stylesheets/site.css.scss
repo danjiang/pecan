@@ -3,8 +3,9 @@
 @import "grid";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import "common";
 
-$open-sans: "open-sans",sans-serif;
+$open-sans: "open-sans", sans-serif;
 $base-font-size: 16px;
 $brand-color: #E60012;
 $text-color: #4C4C4C;
@@ -253,8 +254,33 @@ footer {
 	}
 }
 
-section {
+section#products {
 	background-color: $dark-color;
+	padding: 100px 0;
+	a {
+		@include column(3);
+		display: block;
+		text-align: center;
+		background-color: rgba(74, 74, 74, 0.6);
+		text-decoration: none;
+		padding: 24px 0;
+		@include round_corner(10px);
+		&:hover {
+			background-color: rgba(155, 155, 155, 0.6);
+		}
+		img {
+			max-width: 100%;
+			width: 128px;
+			height: 128px;
+		}
+		h3 {
+			color: $light-color;
+			margin: 10px 0;
+		}
+		p {
+			color: $light-color;
+		}
+	}
 }
 
 /* ==========================================================================
