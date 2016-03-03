@@ -14,7 +14,7 @@
     <!--[if lt IE 10]>
 		<p class="browsehappy"><%= I18n.t "browse_happy.part1" %> <a href="http://browsehappy.com/"><%= I18n.t "browse_happy.part2" %></a> <%= I18n.t "browse_happy.part3" %></p>
 		<![endif]-->
-		<header>
+		<header id="<%= current_page.data.header || "default" %>">
 			<div class="wrapper">
 				<h1>
 					<a title="<%= I18n.t :brand %> - <%= I18n.t :slogan %>" href="/">
@@ -23,21 +23,21 @@
 				</h1>
 				<ul>
 					<li>
-						<a title="<%= I18n.t :products %>" href="/">
+						<a title="<%= I18n.t "products.title" %>" href="/">
 							<div class="icon"><i class="fa fa-home"></i></div>
-							<div class="text"><%= I18n.t :products %></div>
+							<div class="text"><%= I18n.t "products.title" %></div>
 						</a>
 					</li>
 					<li>
-						<a title="<%= I18n.t :guides %>" href="/">
+						<a title="<%= I18n.t "guides.title" %>" href="/">
 							<div class="icon"><i class="fa fa-book"></i></div>
-							<div class="text"><%= I18n.t :guides %></div>
+							<div class="text"><%= I18n.t "guides.title" %></div>
 						</a>
 					</li>
 					<li>
-						<a title="<%= I18n.t :support %>" href="/">
+						<a title="<%= I18n.t "support.title" %>" href="/support.html">
 							<div class="icon"><i class="fa fa-support"></i></div>
-							<div class="text"><%= I18n.t :support %></div>
+							<div class="text"><%= I18n.t "support.title" %></div>
 						</a>
 					</li>
 					<li>

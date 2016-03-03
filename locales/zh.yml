@@ -7,19 +7,149 @@ zh:
   site_url: /
   brand: Wuhoo
   slogan: 优秀的应用只为健康的生活方式
-  products: 产品目录
-  guides: 帮助文档
-  support: 客服支持
+  email: 电子邮箱
+  weibo: 新浪微博
+  twitter: Twitter
+  products:
+    title: 产品目录
+    calorie_ios:
+      name: 热量助手
+      device: iPhone 和 iPad 版
+    calorie_mac:
+      name: 热量助手
+      device: Mac 版
+    track_iphone:
+      name: 健康日记
+      device: iPhone 版
+    timer_ios:
+      name: 计时器
+      device: 即将上线
+  guides:
+    title: 帮助文档
+  support:
+    title: 客服支持
+    guides:
+      title: 帮助文档
+      description: 关于应用的使用小窍门、教程和指导
+    email:
+      title: 发送邮件
+      description: 欢迎提任何问题，会尽快回复邮件
+    weibo:
+      title: 新浪微博
+      description: 关注官方账号，了解动向，反馈问题
+    twitter:
+      title: Twitter
+      description: 关注官方账号，了解动向，反馈问题
   language: English
   calorie_ios:
+    title: 热量助手 - 更好地了解你的食物热量 - Dan Thought Studio
+    description: 热量助手是一款iOS应用，使用热量助手应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，支持iCloud，同时支持iPhone和iPad。
+    icon:
+      alt: 热量助手 iPhone 和 iPad 版应用图标
     name: 热量助手
     device: iPhone 和 iPad 版
-  calorie_mac:
-    name: 热量助手
-    device: Mac 版
+    screenshot:
+      alt: 热量助手 iPhone 和 iPad 版应用截图
+      src: zh-calorie-ios-screenshot.png
+    download: 立即下载
+    buy: 在 App Store 上购买 - 热量助手
+    campaign: /
+    press_kit: 媒体资料
+    press_kit_zip: /
+    benefit:
+      why: 卡路里是一种常见的食物热量单位，导致肥胖的主要原因之一是吃高热量食物，因此更好地了解你的食物热量，摄入有营养的低热量食物，有利于保持身体健康。
+      how: 有一种简单便捷的方法可以通过你的性别，年龄和体重来计算出推荐的每日所需基本热量，如果你知道所吃食物的热量，计算一下你摄入的热量总和，就可以控制每日热量摄入。
+      do: 使用热量应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手。
+    feature:
+      search:
+        title: 搜索
+        detail: 连接网络时，通过名称来搜索食物或锻炼，我们的食物库会越来越多。
+      categories:
+        title: 分类
+        detail: 连接网络时，通过分类来浏览食物或锻炼，我们的分类食物库会不断增长。
+      brands:
+        title: 品牌
+        detail: 连接网络时，通过品牌来浏览食物，我们的品牌食物库会不断完善。
+      logs:
+        title: 记录
+        detail: 从在线食物或锻炼来新增记录，如果没有所需食物或锻炼，发送邮件及时反馈。
+      recommend:
+        title: 推荐
+        detail: 在设置好性别，年龄和体重后，应用可以自动计算出推荐的每日所需基本热量。
+      daily:
+        title: 日常
+        detail: 热量记录体现了你日常热量摄入和热量消耗，自动计算出你每日热量摄入的净值。
+      icloud:
+        title: iCloud
+        detail: 记录功能支持iCloud同步，你可以自行决定使用iCloud，还是本地存储。
+      universal:
+        title: 通用
+        detail: 热量是一个通用应用，如果你拥有iPhone和iPad，在两个设备上使用会很方便。
   track_iphone:
+    title: 健康日记 - 健康生活方式从日记开始 - Dan Thought Studio
+    description: 健康日记是一款 iOS 应用，健康生活方式从日记开始。
+    icon:
+      alt: 健康日记 iPhone 版应用图标
     name: 健康日记
     device: iPhone 版
-  timer_ios:
-    name: 计时器
-    device: 即将上线
+    screenshot:
+      alt: 健康日记 iPhone 版应用截图
+      src: zh-track-iphone-screenshot.png
+    download: 免费下载
+    buy: 在 App Store 上购买 - 健康日记
+    campaign: /
+    press_kit: 媒体资料
+    press_kit_zip: /
+    why:
+      title: 我们为什么制作这个应用
+      detail: 如今，随着生活水平的提高，工作压力的加大，大部分职场人员都有饮食不规律，作息时间混乱，平时也是久坐族，缺乏体育锻炼；我们倡导一种健康的生活方式，你可以从日记开始记录每天的健康情况，理解并且简易分析问题的来源，采取行动从根本上解决问题。
+    benefit:
+      weight:
+        title: 记录体重
+        detail: 肥胖对健康有不利的影响，导致寿命降低或引起健康问题。平时很容易忽视这个问题，不知不觉中增加体重。为什么不从每日记录你的体重做起，它可以提醒你，注意你的体重。
+      water:
+        title: 记录饮水
+        detail: 人体约 75% 重量都是水，水延续着我们的生命，正常人每天从饮食和饮水中摄取水分，我们每天除吃饭外，还需要喝大约 6～8 杯水，这样才能满足人体新陈代谢的需要，所以每天要喝足水。
+      mood:
+        title: 记录心情
+        detail: 情绪影响机体的免疫力，良好的情绪可使机体生理机能处于最佳状态，使免疫抗病系统发挥最大效应。情绪可以改变内分泌和神经系统功能，影响精神健康。好心情也是一种健康的表现。
+      target:
+        title: 记录目标
+        detail: 吃垃圾食品、吸烟和长时间看电视，这些坏习惯对健康很不利，而常吃水果、饭后散步和有计划的体育锻炼，这些好习惯有助于健康，改掉坏习惯，养成好习惯，习惯的养成贵在坚持，做好记录，提醒自己。
+    feature:
+      photo:
+        title: 照片
+        detail: 日记中添加照片，用相机立即拍摄一张或者从照片库中选择一张照片都行。
+      diary:
+        title: 日记
+        detail: 用文字记录每天发生了什么，健康和我们生活息息相关，写点什么都行。
+      weight:
+        title: 体重
+        detail: 日记中记录体重，左右滑动尺子来改变体重，简单快速，修改体重也是同样的。
+      bmi:
+        title: BMI
+        detail: 录入了身高后，每次记录体重后就可以自动计算出 BMI 和 BMI 等级。
+      bfr:
+        title: 体脂率
+        detail: 录入了年龄和性别后，每次记录体重后就可以自动计算出身体中的脂肪含量。
+      water:
+        title: 饮水
+        detail: 你喝足水了吗？日记中记录饮水，每天 8 杯水，它可以提醒你要喝足水。
+      mood:
+        title: 心情
+        detail: 今天心情怎么样？微笑，开心，中立，难过，担心，还是愤怒。
+      target:
+        title: 目标
+        detail: 日记中记录目标，可以记录 5 种你每天想完成的目标，用来改正坏习惯。
+      timeline:
+        title: 时间线
+        detail: 时间线中呈现了最新到最旧的日记，这种方式来回顾日记很方便。
+      calendar:
+        title: 日历
+        detail: 以日历的方式来快速查找日记，这里可以添加任何一天的日记，避免遗漏。
+      analysis:
+        title: 分析
+        detail: 以图表的方式来分析体重变化，每天饮水量，心情成份比例和目标达成次数。
+      icloud:
+        title: iCloud
+        detail: 日记支持 iCloud 同步，你可以自行决定使用 iCloud，还是本地存储。

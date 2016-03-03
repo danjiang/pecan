@@ -5,6 +5,7 @@
 @import "font-awesome";
 @import "common";
 
+$image-base-url: "http://7xr7i8.com1.z0.glb.clouddn.com";
 $open-sans: "open-sans", sans-serif;
 $base-font-size: 16px;
 $brand-color: #E60012;
@@ -12,6 +13,8 @@ $text-color: #4C4C4C;
 $dark-color: #000000;
 $light-dark-color: #222222;
 $light-color: #FFFFFF;
+$orange-color: #ea5520;
+$yellow-green-color: #C4D700;
 
 @function em($px, $base: $base-font-size) {
     @return ($px / $base) * 1em;
@@ -123,7 +126,7 @@ body {
   color: $text-color;
 	font-size: $base-font-size;
   line-height: 1.4;
-  background-color: $light-dark-color;
+  background-color: $dark-color;
   font-family: $open-sans;
   font-weight: normal;
 }
@@ -170,9 +173,9 @@ div.wrapper {
 	}
 }
 
-header {
-  background-color: $dark-color;
+@mixin header($text-color, $background-color) {
 	height: 100px;
+	background-color: $background-color;
 	h1 {
 		@include column(4);
 		img {
@@ -191,7 +194,7 @@ header {
 			margin-left: 60px;
 			a {
 				text-align: center;
-				color: $light-color;
+				color: $text-color;
 				text-decoration: none;
 				&:hover {
 					color: $brand-color;
@@ -206,6 +209,14 @@ header {
 			}
 		}
 	}
+}
+
+header#default {
+	@include header($light-color, $dark-color);
+}
+
+header#light {
+	@include header($text-color, $light-color);
 }
 
 footer {
@@ -255,7 +266,6 @@ footer {
 }
 
 section#products {
-	background-color: $dark-color;
 	padding: 100px 0;
 	a {
 		@include column(3);
@@ -281,6 +291,165 @@ section#products {
 			color: $light-color;
 		}
 	}
+}
+
+section#support {
+	padding: 100px 0;
+	background-color: $light-color;
+	div.item {
+		@include column(3);
+		a {
+			display: block;
+			text-align: center;
+			border: 1px solid $light-dark-color;
+			text-decoration: none;
+			padding: 24px 0;
+			@include round_corner(10px);
+			color: $text-color;
+			&:hover {
+				border: 1px solid $brand-color;
+				color: $brand-color;
+			}
+			i {
+				font-size: em(110px);
+			}
+			h4 {
+				margin: 10px 0;
+			}
+			p {
+				padding: 0 10px;
+			}
+		}
+	}
+}	
+
+section#calorie_ios_banner {
+	@include product_banner("#{$image-base-url}/calorie-ios-background.jpg");
+}
+
+section#calorie_ios_screenshot {
+  @include product_screenshot(785px, 1003px);
+}
+
+section#calorie_ios_benefit {
+  background-color: #fff;
+  text-align: center;
+  padding: 0 0 100px 0;
+  div.item {
+    @include column(4);
+    i {
+      color: $orange-color;
+      font-size: em(120px);
+    }
+    p {
+      text-align: left;
+      color: $text-color;
+      font-size: em(18px);
+      line-height: 180%;
+    }
+  }
+	@media screen and (max-width: 600px) {
+    padding: 0 0 40px 0;
+    div.item {
+			float: none;
+			display: block;
+      width: 100%;
+    }
+  }
+}
+
+section#calorie_ios_feature {
+  @include product_feature($orange-color);
+}
+
+section#calorie_ios_buy {
+  @include product_buy($orange-color);
+}
+
+section#calorie_ios_secondary {
+	@include product_secondary($orange-color);
+}
+
+
+section#track_iphone_banner {
+	@include product_banner("#{$image-base-url}/track-iphone-background.jpg");
+}
+
+section#track_iphone_screenshot {
+  @include product_screenshot(870px, 802px);
+}
+
+section#track_iphone_why {
+  background-color: #fff;
+  text-align: center;
+  padding: 0 0 100px 0;
+  h1 {
+    margin: 0;
+    color: $yellow-green-color;
+		font-weight: normal;
+  }
+  p {
+    text-align: left;
+    color: $text-color;
+    font-size: em(18px);
+    line-height: 180%;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 0 0 40px 0;
+  }
+}
+
+section#track_iphone_benefit {
+  background-color: #fff;
+  padding: 0 0 100px 0;
+  div.item {
+    @include column(6);
+		h3 {
+			margin: 0;
+			i {
+				margin-right: 15px;
+			}
+		}
+    p {
+			margin: 18px 0 36px 0;
+      text-align: left;
+      color: $text-color;
+      font-size: em(18px);
+      line-height: 180%;
+    }
+		h3.weight {
+			color: #7E4985;
+		}
+		h3.water {
+			color: #59C3E2;
+		}
+		h3.mood {
+			color: #DC5B6F;
+		}
+		h3.target {
+			color: #F7AB00;
+		}
+  }
+	@media screen and (max-width: 600px) {
+    padding: 0 0 40px 0;
+    div.item {
+			float: none;
+			display: block;
+      width: 100%;
+    }
+  }
+}
+
+section#track_iphone_feature {
+  @include product_feature($yellow-green-color);
+}
+
+section#track_iphone_buy {
+  @include product_buy($yellow-green-color);
+}
+
+section#track_iphone_secondary {
+	@include product_secondary($yellow-green-color);
 }
 
 /* ==========================================================================
