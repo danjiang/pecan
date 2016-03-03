@@ -18,18 +18,20 @@ page '/*.txt', layout: false
 
 # General configuration
 
-activate :i18n
+activate :i18n, :mount_at_root => :en
+activate :directory_indexes
 
 ###
 # Helpers
 ###
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+	def locale_path(path)
+		path = path == "/" ? "" : "#{path}/"
+		I18n.locale.to_s == "en" ? "/#{path}" : "/#{I18n.locale}/#{path}"
+	end
+end
 
 # Build-specific configuration
 configure :build do

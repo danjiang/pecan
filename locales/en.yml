@@ -4,14 +4,16 @@ en:
     part1: You are using an outdated browser. Please
     part2: upgrade your browser
     part3: to improve your experience.
-  site_url: /zh
+  site_url: /zh/
   brand: Wuhoo
-  slogan: Awesome apps for healthy lifestyle
+  slogan: Healthy Digital Life
   email: Email
   weibo: Sina Weibo
   twitter: Twitter
   products:
-    title: Products
+    name: Products
+    title: Products - Wuhoo
+    description: Products - Wuhoo
     calorie_ios:
       name: Calorie
       device: for iPhone & iPad
@@ -25,9 +27,13 @@ en:
       name: Timer
       device: Comming soon
   guides:
-    title: Guides
+    name: Guides
+    title: Guides - Wuhoo
+    description: Guides - Wuhoo
   support:
-    title: Support
+    name: Support
+    title: Support - Wuhoo
+    description: Support - Wuhoo
     guides:
       title: Guides
       description: Tips, tutorials and how-tos for all the app
@@ -40,9 +46,11 @@ en:
     twitter:
       title: Twitter
       description: Follow official account. Happy to help you out.
-  language: 简体中文
+  language:
+    name: 简体中文
+    title: 切换到中文
   calorie_ios:
-    title: Calorie - Better know your food calorie - Dan Thought Studio
+    title: Calorie - Log foods calorie intake and exercises calorie burn - Wuhoo 
     description: Calorie is an iOS app. Use Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iCloud. Support both iPhone and iPad.
     icon:
       alt: Calorie for iPhone & iPad App Icon
@@ -86,7 +94,7 @@ en:
         title: Universal
         detail: Calorie is an universal app. If you have both iPhone and iPad. It will be conveniently used on both devices.
   track_iphone:
-    title: Health Diary - Healthy lifestyle start with diary - Dan Thought Studio
+    title: Health Diary - Healthy lifestyle start with diary - Wuhoo
     description: Health Diary is an iOS app. Healthy lifestyle start with diary.
     icon:
       alt: Health Diary for iPhone App Icon

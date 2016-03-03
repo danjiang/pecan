@@ -6,12 +6,14 @@ zh:
     part3: 来感受更好的上网体验。
   site_url: /
   brand: Wuhoo
-  slogan: 优秀的应用只为健康的生活方式
+  slogan: 健康数字生活
   email: 电子邮箱
   weibo: 新浪微博
   twitter: Twitter
   products:
-    title: 产品目录
+    name: 产品目录
+    title: 产品目录 - Wuhoo
+    description: 产品目录 - Wuhoo
     calorie_ios:
       name: 热量助手
       device: iPhone 和 iPad 版
@@ -25,9 +27,13 @@ zh:
       name: 计时器
       device: 即将上线
   guides:
-    title: 帮助文档
+    name: 帮助文档
+    title: 帮助文档 - Wuhoo
+    description: 帮助文档 - Wuhoo
   support:
-    title: 客服支持
+    name: 客服支持
+    title: 客服支持 - Wuhoo
+    description: 客服支持 - Wuhoo
     guides:
       title: 帮助文档
       description: 关于应用的使用小窍门、教程和指导
@@ -40,10 +46,12 @@ zh:
     twitter:
       title: Twitter
       description: 关注官方账号，了解动向，反馈问题
-  language: English
+  language:
+    name: English
+    title: Switch to English
   calorie_ios:
-    title: 热量助手 - 更好地了解你的食物热量 - Dan Thought Studio
-    description: 热量助手是一款iOS应用，使用热量助手应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，支持iCloud，同时支持iPhone和iPad。
+    title: 热量助手 - 记录食物热量摄入和运动热量消耗 - Wuhoo
+    description: 热量助手是一款 iOS 应用，使用热量助手应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，支持 iCloud，同时支持 iPhone 和 iPad。
     icon:
       alt: 热量助手 iPhone 和 iPad 版应用图标
     name: 热量助手
@@ -86,7 +94,7 @@ zh:
         title: 通用
         detail: 热量是一个通用应用，如果你拥有iPhone和iPad，在两个设备上使用会很方便。
   track_iphone:
-    title: 健康日记 - 健康生活方式从日记开始 - Dan Thought Studio
+    title: 健康日记 - 健康生活方式从日记开始 - Wuhoo
     description: 健康日记是一款 iOS 应用，健康生活方式从日记开始。
     icon:
       alt: 健康日记 iPhone 版应用图标
