@@ -21,6 +21,17 @@ page '/*.txt', layout: false
 activate :i18n, :mount_at_root => :en
 activate :directory_indexes
 
+activate :blog do |blog|
+  blog.permalink = "{lang}/guides/{device}/{product}/{title}.html"
+  blog.sources = "guides/{lang}/{device}/{product}/{title}.html"
+  blog.layout = "layouts/blog"
+end
+
+# Reload the browser automatically whenever files change
+configure :development do
+	activate :livereload
+end
+
 ###
 # Helpers
 ###

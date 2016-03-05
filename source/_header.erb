@@ -1,0 +1,39 @@
+<!--[if lt IE 10]>
+<p class="browsehappy"><%= I18n.t "browse_happy.part1" %> <a href="http://browsehappy.com/"><%= I18n.t "browse_happy.part2" %></a> <%= I18n.t "browse_happy.part3" %></p>
+<![endif]-->
+<header id="<%= current_page.data.header || "default" %>">
+	<div class="wrapper">
+		<h1>
+			<a title="<%= I18n.t :brand %> - <%= I18n.t :slogan %>" href="<%= locale_path "/" %>">
+				<img alt="<%= I18n.t :brand %> - <%= I18n.t :slogan %>" src="<%= data.site.image_base_url %>/logo.png">
+			</a>
+		</h1>
+		<ul>
+			<li>
+				<a title="<%= I18n.t "products.title" %>" href="<%= locale_path "/" %>">
+					<div class="icon"><i class="fa fa-home"></i></div>
+					<div class="text"><%= I18n.t "products.name" %></div>
+				</a>
+			</li>
+			<li>
+				<a title="<%= I18n.t "guides.title" %>" href="<%= locale_path "guides" %>">
+					<div class="icon"><i class="fa fa-book"></i></div>
+					<div class="text"><%= I18n.t "guides.name" %></div>
+				</a>
+			</li>
+			<li>
+				<a title="<%= I18n.t "support.title" %>" href="<%= locale_path "support" %>">
+					<div class="icon"><i class="fa fa-support"></i></div>
+					<div class="text"><%= I18n.t "support.name" %></div>
+				</a>
+			</li>
+			<li>
+				<a title="<%= I18n.t "language.title" %>" href="<%= I18n.t :site_url %>">
+					<div class="icon"><i class="fa fa-language"></i></div>
+					<div class="text"><%= I18n.t "language.name" %></div>
+				</a>
+			</li>
+		</ul>
+		<div class="clearfix"></div>
+	</div>
+</header>

@@ -323,6 +323,36 @@ section#support {
 	}
 }	
 
+section#guides {
+	padding: 50px 0 100px 0;
+	background-color: $light-color;
+	div.item {
+		@include column(6);
+		margin-top: 50px;
+		h3 {
+			color: $brand-color;
+		}
+		ul {
+			margin: 20px 0 0 0;
+			padding: 0;
+			li {
+				list-style: none;
+				margin-bottom: 18px;
+				color: $text-color;
+				font-size: em(18px);
+				a {
+					margin-left: 10px; 
+					text-decoration: underline;
+					color: $text-color;
+					&:hover {
+						color: $brand-color;
+					}
+				}
+			}
+		}
+	}
+}
+
 section#calorie_ios_banner {
 	@include product_banner("#{$image-base-url}/calorie-ios-background.jpg");
 }

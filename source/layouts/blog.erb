@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title><%= current_page.data.title %> - <%= I18n.t "products.#{ current_page.data[:product] + "_" + current_page.data[:device] }.name" %>&nbsp;<%= I18n.t "products.#{ current_page.data[:product] + "_" + current_page.data[:device] }.device" %> - Wuhoo</title>
+		<meta name="description" content="<%= current_page.data.title %> - <%= I18n.t "products.#{ current_page.data[:product] + "_" + current_page.data[:device] }.name" %>&nbsp;<%= I18n.t "products.#{ current_page.data[:product] + "_" + current_page.data[:device] }.device" %> - Wuhoo">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag "modernizr-2.8.3.min" %>
+	</head>
+	<body>
+		<%= partial "header" %> 
+		<div id="article">
+			<%= yield %>
+		</div>
+		<div id="sidebar">
+			<h1>Other Links</h1>
+		</div>
+		<%= partial "footer" %>
+	</body>
+</html>

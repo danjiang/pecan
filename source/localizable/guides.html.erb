@@ -1,0 +1,19 @@
+---
+name: guides
+---
+
+<section id="guides">
+	<div class="wrapper">
+		<% blog.articles.select {|a| a.lang.to_s == I18n.locale.to_s }.group_by {|a| a.data[:product] + "_" + a.data[:device] }.each do |category, articles| %>
+			<div class="item">
+				<h3><a name="<%= category %>"><%= I18n.t("products.#{category}.name") %>&nbsp;<%= I18n.t("products.#{category}.device") %></a></h3>
+				<ul>
+					<% articles.each do |article| %>
+						<li><i class="fa fa-file-text-o"></i><a href="<%= article.url %>"><%= article.title %></a></li>
+					<% end %>
+				</ul>
+			</div>
+		<% end %>
+		<div class="clearfix"></div>
+	</div>
+</section>
