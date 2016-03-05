@@ -4,21 +4,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "common";
-
-$image-base-url: "http://7xr7i8.com1.z0.glb.clouddn.com";
-$open-sans: "open-sans", sans-serif;
-$base-font-size: 16px;
-$brand-color: #E60012;
-$text-color: #4C4C4C;
-$dark-color: #000000;
-$light-dark-color: #222222;
-$light-color: #FFFFFF;
-$orange-color: #ea5520;
-$yellow-green-color: #C4D700;
-
-@function em($px, $base: $base-font-size) {
-    @return ($px / $base) * 1em;
-}
+@import "article";
 
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
@@ -123,12 +109,13 @@ textarea {
    ========================================================================== */
 
 body {
-  color: $text-color;
-	font-size: $base-font-size;
-  line-height: 1.4;
-  background-color: $dark-color;
   font-family: $open-sans;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
   font-weight: normal;
+  color: $text-color;
+  background-color: $dark-color;
+	-webkit-text-size-adjust: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -138,28 +125,28 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: em(63.97px);
-	@media only screen and (max-width: 600px) {
+	@include media-query(phone) {
 		font-size: em(57.571px);
 	}
 }
 
 h2 { 
   font-size: em(45.23px);
-	@media only screen and (max-width: 600px) {
+	@include media-query(phone) {
 		font-size: em(40.709px);
 	}
 }
 
 h3 {
   font-size: em(31.98px);
-	@media only screen and (max-width: 600px) {
+	@include media-query(phone) {
 		font-size: em(28.786px);
 	}
 }
 
 h4 {
   font-size: em(22.62px);
-	@media only screen and (max-width: 600px) {
+	@include media-query(phone) {
 		font-size: em(20.362px);
 	}
 }
@@ -168,7 +155,7 @@ div.wrapper {
 	max-width: 960px;
 	width: 100%;
 	margin: auto;
-	@media only screen and (max-width: 600px) {
+	@include media-query(phone) {
 		width: 90%;
 	}
 }
@@ -323,6 +310,21 @@ section#support {
 	}
 }	
 
+.article_list {
+	list-style: none;
+	margin-bottom: 18px;
+	color: $text-color;
+	font-size: em(18px);
+	a {
+		margin-left: 10px; 
+		text-decoration: underline;
+		color: $text-color;
+		&:hover {
+			color: $brand-color;
+		}
+	}
+}
+
 section#guides {
 	padding: 50px 0 100px 0;
 	background-color: $light-color;
@@ -336,19 +338,24 @@ section#guides {
 			margin: 20px 0 0 0;
 			padding: 0;
 			li {
-				list-style: none;
-				margin-bottom: 18px;
-				color: $text-color;
-				font-size: em(18px);
-				a {
-					margin-left: 10px; 
-					text-decoration: underline;
-					color: $text-color;
-					&:hover {
-						color: $brand-color;
-					}
-				}
+				@extend .article_list;
 			}
+		}
+	}
+}
+
+section#guide {
+	padding: 50px 0;
+	background-color: $light-color;
+	div#article {
+		@include column(8);
+	}
+	ul#sidebar {
+		@include column(4);
+		margin: 10px 0 0 0;
+		padding: 0;
+		li {
+			@extend .article_list;
 		}
 	}
 }
@@ -368,7 +375,7 @@ section#calorie_ios_benefit {
   div.item {
     @include column(4);
     i {
-      color: $orange-color;
+      color: $calorie-brand-color;
       font-size: em(120px);
     }
     p {
@@ -378,7 +385,7 @@ section#calorie_ios_benefit {
       line-height: 180%;
     }
   }
-	@media screen and (max-width: 600px) {
+	@include media-query(phone) {
     padding: 0 0 40px 0;
     div.item {
 			float: none;
@@ -389,15 +396,15 @@ section#calorie_ios_benefit {
 }
 
 section#calorie_ios_feature {
-  @include product_feature($orange-color);
+  @include product_feature($calorie-brand-color);
 }
 
 section#calorie_ios_buy {
-  @include product_buy($orange-color);
+  @include product_buy($calorie-brand-color);
 }
 
 section#calorie_ios_secondary {
-	@include product_secondary($orange-color);
+	@include product_secondary($calorie-brand-color);
 }
 
 
@@ -415,7 +422,7 @@ section#track_iphone_why {
   padding: 0 0 100px 0;
   h1 {
     margin: 0;
-    color: $yellow-green-color;
+    color: $track-brand-color;
 		font-weight: normal;
   }
   p {
@@ -424,7 +431,7 @@ section#track_iphone_why {
     font-size: em(18px);
     line-height: 180%;
   }
-  @media screen and (max-width: 600px) {
+	@include media-query(phone) {
     padding: 0 0 40px 0;
   }
 }
@@ -460,7 +467,7 @@ section#track_iphone_benefit {
 			color: #F7AB00;
 		}
   }
-	@media screen and (max-width: 600px) {
+	@include media-query(phone) {
     padding: 0 0 40px 0;
     div.item {
 			float: none;
@@ -471,15 +478,15 @@ section#track_iphone_benefit {
 }
 
 section#track_iphone_feature {
-  @include product_feature($yellow-green-color);
+  @include product_feature($track-brand-color);
 }
 
 section#track_iphone_buy {
-  @include product_buy($yellow-green-color);
+  @include product_buy($track-brand-color);
 }
 
 section#track_iphone_secondary {
-	@include product_secondary($yellow-green-color);
+	@include product_secondary($track-brand-color);
 }
 
 /* ==========================================================================
@@ -554,16 +561,6 @@ section#track_iphone_secondary {
 
 .clearfix:after {
     clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,

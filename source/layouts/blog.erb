@@ -12,12 +12,20 @@
 	</head>
 	<body>
 		<%= partial "header" %> 
-		<div id="article">
-			<%= yield %>
-		</div>
-		<div id="sidebar">
-			<h1>Other Links</h1>
-		</div>
+		<section id="guide">
+			<div class="wrapper">
+				<div id="article">
+					<h1><%= current_page.data.title %></h1>
+					<%= yield %>
+				</div>
+				<ul id="sidebar">
+					<% blog.articles.select {|a| a.lang.to_s == I18n.locale.to_s && a.data[:product] + "_" + a.data[:device] == current_page.data[:product] + "_" + current_page.data[:device] }.each do |article| %>
+						<li><i class="fa fa-file-text-o"></i><a href="<%= article.url %>"><%= article.title %></a></li>
+					<% end %>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</section>
 		<%= partial "footer" %>
 	</body>
 </html>
