@@ -51,7 +51,7 @@ en:
     title: 切换到中文
   calorie_ios:
     title: Calorie - Log foods calorie intake and exercises calorie burn - Wuhoo 
-    description: Calorie is an iOS app. Use Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iCloud. Support both iPhone and iPad.
+    description: Calorie is an iOS app. Use Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iCloud. Support iPhone, iPad and Mac.
     icon:
       alt: Calorie for iPhone & iPad App Icon
     name: Calorie
@@ -90,9 +90,53 @@ en:
       icloud:
         title: iCloud
         detail: Your everyday calorie logs support iCloud. You can decide use iCloud or just local store.
-      universal:
-        title: Universal
-        detail: Calorie is an universal app. If you have both iPhone and iPad. It will be conveniently used on both devices.
+      desktop:
+        title: Desktop
+        detail: Calorie also have a Mac app. If you have a Mac. It will be conveniently used on Desktop.
+  calorie_mac:
+    title: Calorie - Log foods calorie intake and exercises calorie burn - Wuhoo 
+    description: Calorie is a Mac app. Use Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iCloud. Support iPhone, iPad and Mac.
+    icon:
+      alt: Calorie for Mac App Icon
+    name: Calorie
+    device: for Mac
+    screenshot:
+      alt: Calorie for Mac App Screenshot
+      src: en-calorie-mac-screenshot.png?20160311
+    download: Get the App
+    buy: Buy on App Store - Calorie
+    campaign: /
+    press_kit: Press Kit
+    press_kit_zip: /
+    benefit:
+      why: Calorie is a common unit of food energy. One reason cause obesity is eating food with lots of calorie. So better know your food calorie. To be healthy.
+      how: Calculate recommended daily intake through your gender, age and weight. So if you know food calorie, you can control daily energy intake.
+      do: Use Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare your daily intake with recommended daily intake.
+    feature:
+      search:
+        title: Search
+        detail: Search foods or exercises through name with network. Our foods library will be better and better.
+      categories:
+        title: Categories
+        detail: Browse foods or exercises through categories with network. Our foods library will increase.
+      brands:
+        title: Brands
+        detail: Browse foods through brands with network. Our foods with brands will increase.
+      logs:
+        title: Logs
+        detail: Add log base on online datas. If you can`t find your foods or exercises. Send an email to feedback
+      recommend:
+        title: Recommend
+        detail: Setup gender, weight and age. Calorie app can calculate recommended daily intake automatically.
+      daily:
+        title: Daily Intake
+        detail: Logs show your daily calorie intake and calorie burn. Summary everyday calorie net automatically.
+      icloud:
+        title: iCloud
+        detail: Your everyday calorie logs support iCloud. You can decide use iCloud or just local store.
+      mobile:
+        title: Mobile
+        detail: Calorie also have an iPhone and iPad app. It will be conveniently used on both devices.
   track_iphone:
     title: Health Diary - Healthy lifestyle start with diary - Wuhoo
     description: Health Diary is an iOS app. Healthy lifestyle start with diary.

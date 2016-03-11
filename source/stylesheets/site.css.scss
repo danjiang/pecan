@@ -407,6 +407,52 @@ section#calorie_ios_secondary {
 	@include product_secondary($calorie-brand-color);
 }
 
+section#calorie_mac_banner {
+	@include product_banner("#{$image-base-url}/calorie-mac-background.jpg");
+}
+
+section#calorie_mac_screenshot {
+  @include product_screenshot(952px, 571.2px);
+}
+
+section#calorie_mac_benefit {
+  background-color: #fff;
+  text-align: center;
+  padding: 0 0 100px 0;
+  div.item {
+    @include column(4);
+    i {
+      color: $calorie-brand-color;
+      font-size: em(120px);
+    }
+    p {
+      text-align: left;
+      color: $text-color;
+      font-size: em(18px);
+      line-height: 180%;
+    }
+  }
+	@include media-query(phone) {
+    padding: 0 0 40px 0;
+    div.item {
+			float: none;
+			display: block;
+      width: 100%;
+    }
+  }
+}
+
+section#calorie_mac_feature {
+  @include product_feature($calorie-brand-color);
+}
+
+section#calorie_mac_buy {
+  @include product_buy($calorie-brand-color);
+}
+
+section#calorie_mac_secondary {
+	@include product_secondary($calorie-brand-color);
+}
 
 section#track_iphone_banner {
 	@include product_banner("#{$image-base-url}/track-iphone-background.jpg");

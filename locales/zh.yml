@@ -51,7 +51,7 @@ zh:
     title: Switch to English
   calorie_ios:
     title: 热量助手 - 记录食物热量摄入和运动热量消耗 - Wuhoo
-    description: 热量助手是一款 iOS 应用，使用热量助手应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，支持 iCloud，同时支持 iPhone 和 iPad。
+    description: 热量助手是一款 iOS 应用，使用热量助手应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，支持 iCloud，同时支持 iPhone，iPad 和 Mac。
     icon:
       alt: 热量助手 iPhone 和 iPad 版应用图标
     name: 热量助手
@@ -89,10 +89,54 @@ zh:
         detail: 热量记录体现了你日常热量摄入和热量消耗，自动计算出你每日热量摄入的净值。
       icloud:
         title: iCloud
-        detail: 记录功能支持iCloud同步，你可以自行决定使用iCloud，还是本地存储。
-      universal:
-        title: 通用
-        detail: 热量是一个通用应用，如果你拥有iPhone和iPad，在两个设备上使用会很方便。
+        detail: 记录功能支持 iCloud 同步，你可以自行决定使用 iCloud，还是本地存储。
+      desktop:
+        title: Mac
+        detail: 热量还有 Mac 版的应用，如果你拥有 Mac，在其上使用会很方便。
+  calorie_mac:
+    title: 热量助手 - 记录食物热量摄入和运动热量消耗 - Wuhoo
+    description: 热量助手是一款 Mac 应用，使用热量助手应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，支持 iCloud，同时支持 iPhone，iPad 和 Mac。
+    icon:
+      alt: 热量助手 Mac 版应用图标
+    name: 热量助手
+    device: Mac 版
+    screenshot:
+      alt: 热量助手 Mac 版应用截图
+      src: zh-calorie-mac-screenshot.png
+    download: 立即下载
+    buy: 在 App Store 上购买 - 热量助手
+    campaign: /
+    press_kit: 媒体资料
+    press_kit_zip: /
+    benefit:
+      why: 卡路里是一种常见的食物热量单位，导致肥胖的主要原因之一是吃高热量食物，因此更好地了解你的食物热量，摄入有营养的低热量食物，有利于保持身体健康。
+      how: 有一种简单便捷的方法可以通过你的性别，年龄和体重来计算出推荐的每日所需基本热量，如果你知道所吃食物的热量，计算一下你摄入的热量总和，就可以控制每日热量摄入。
+      do: 使用热量应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手。
+    feature:
+      search:
+        title: 搜索
+        detail: 连接网络时，通过名称来搜索食物或锻炼，我们的食物库会越来越多。
+      categories:
+        title: 分类
+        detail: 连接网络时，通过分类来浏览食物或锻炼，我们的分类食物库会不断增长。
+      brands:
+        title: 品牌
+        detail: 连接网络时，通过品牌来浏览食物，我们的品牌食物库会不断完善。
+      logs:
+        title: 记录
+        detail: 从在线食物或锻炼来新增记录，如果没有所需食物或锻炼，发送邮件及时反馈。
+      recommend:
+        title: 推荐
+        detail: 在设置好性别，年龄和体重后，应用可以自动计算出推荐的每日所需基本热量。
+      daily:
+        title: 日常
+        detail: 热量记录体现了你日常热量摄入和热量消耗，自动计算出你每日热量摄入的净值。
+      icloud:
+        title: iCloud
+        detail: 记录功能支持 iCloud 同步，你可以自行决定使用 iCloud，还是本地存储。
+      mobile:
+        title: 移动
+        detail: 热量还有 iPhone 和 iPad 版本的应用，在两个设备上使用会很方便。
   track_iphone:
     title: 健康日记 - 健康生活方式从日记开始 - Wuhoo
     description: 健康日记是一款 iOS 应用，健康生活方式从日记开始。

@@ -1,0 +1,43 @@
+---
+name: calorie_mac
+header: light
+---
+
+<section id="calorie_mac_banner">
+	<div>
+		<img alt="<%= I18n.t("calorie_mac.icon.alt") %>" src="<%= data.site.image_base_url %>/icon-calorie-mac.png">
+		<h1><%= I18n.t("calorie_mac.name") %></h1>
+		<h2><%= I18n.t("calorie_mac.device") %></h2>
+	</div>
+</section>
+<section id="calorie_mac_screenshot">
+	<img alt="<%= I18n.t("calorie_mac.screenshot.alt") %>" src="<%= data.site.image_base_url %>/<%= I18n.t("calorie_mac.screenshot.src") %>">
+</section>
+<section id="calorie_mac_benefit">
+  <div class="wrapper">
+		<% { why: "fa-question-circle", how: "fa-info-circle", do: "fa-check-circle" }.each do |benefit, icon| %>
+			<div class="item">
+				<i class="fa <%= icon %>"></i>
+				<p><%= I18n.t("calorie_mac.benefit.#{ benefit.to_s }") %></p>
+			</div>
+		<% end %>
+    <div class="clearfix"></div>
+  </div>
+</section>
+<section id="calorie_mac_feature">
+  <div class="wrapper">
+		<% { search: "fa-search", categories: "fa-folder-open", brands: "fa-shopping-cart", logs: "fa-edit", recommend: "fa-thumbs-o-up", daily: "fa-calendar", icloud: "fa-cloud", mobile: "fa-tablet" }.each do |feature, icon| %>
+			<div class="item">
+				<h4><i class="fa <%= icon %>"></i><%= I18n.t("calorie_mac.feature.#{ feature.to_s }.title") %></h4>
+				<p><%= I18n.t("calorie_mac.feature.#{ feature.to_s }.detail") %></p>
+			</div>
+		<% end %>
+    <div class="clearfix"></div>
+  </div>
+</section>
+<section id="calorie_mac_buy">
+	<a href="<%= I18n.t("calorie_mac.campaign") %>" title="<%= I18n.t("calorie_mac.buy") %>"><%= I18n.t("calorie_mac.download") %></a>
+</section>
+<section id="calorie_mac_secondary">
+	<a href="<%= I18n.t("calorie_mac.press_kit_zip") %>" title="<%= I18n.t("calorie_mac.press_kit") %>"><i class="fa fa-download"></i>&nbsp;&nbsp;<%= I18n.t("calorie_mac.press_kit") %></a>
+</section>
