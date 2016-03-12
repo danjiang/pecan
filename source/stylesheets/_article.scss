@@ -1,4 +1,11 @@
 div#article {
+	h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+		margin: 0;
+		padding: 0;
+	}
+
 	/**
 	 * Set `margin-bottom` to maintain vertical rhythm
 	 */
@@ -52,35 +59,35 @@ div#article {
 
 	h1 {
 		font-size: em(48px);
-		@include media-query(phone) {
+		@include media_query(phone) {
 			font-size: em(24px);
 		}	
 	}
 
 	h2 {
 		font-size: em(40px);
-		@include media-query(phone) {
+		@include media_query(phone) {
 			font-size: em(20px);
 		}	
 	}
 
 	h3 {
 		font-size: em(31px);
-		@include media-query(phone) {
+		@include media_query(phone) {
 			font-size: em(19px);
 		}	
 	}
 
 	h4 {
 		font-size: em(25px);
-		@include media-query(phone) {
+		@include media_query(phone) {
 			font-size: em(18px);
 		}	
 	}
 
 	h5 {
 		font-size: em(20px);
-		@include media-query(phone) {
+		@include media_query(phone) {
 			font-size: em(17px);
 		}	
 	}

@@ -23,7 +23,7 @@ $track-brand-color: #C4D700;
     @return ($px / $base) * 1em;
 }
 
-@mixin media-query($device) {
+@mixin media_query($device) {
 	@if $device == phone {
 		@media screen and (max-width: 600px) {
 			@content;
@@ -36,6 +36,12 @@ $track-brand-color: #C4D700;
 	}
 }
 
+@mixin clear_grid {
+	float: none;
+	display: block;
+	width: 100%;
+}
+
 @mixin round_corner($radius) {
 	-webkit-border-radius: $radius;
 	-moz-border-radius: $radius;
@@ -45,7 +51,6 @@ $track-brand-color: #C4D700;
 @mixin product_banner($background) {
   text-align: center;
   img {
-    max-width: 100%;
     width: 204px;
     height: 204px;
     margin-top: 40px;
@@ -64,14 +69,20 @@ $track-brand-color: #C4D700;
 		background-size: cover;
 		height: 500px;
   }
-	@include media-query(pad) {
+	@include media_query(pad) {
     img {
       width: 164px;
       height: 164px;
       margin-top: 80px;
     }
   }
-	@include media-query(phone) {
+	@include media_query(phone) {
+		h1 {
+			font-size: em(40.709px);
+		}
+		h2 {
+			font-size: em(28.786px);
+		}
     img {
       width: 164px;
       height: 164px;
@@ -80,27 +91,23 @@ $track-brand-color: #C4D700;
   }
 }
 
-@mixin product_screenshot($width, $height) {
+section#product_screenshot {
   background-color: #fff;
   text-align: center;
   padding: 100px 0;
   img {
-    max-width: 100%;
-    width: $width;
-    height: $height;
+    max-width: 50%;
   }
-	@include media-query(pad) {
-    img {
-      width: $width * 0.8;
-      height: $height * 0.8;
-    }
+	@include media_query(pad) {
+		img {
+			max-width: 90%;
+		}
   }
-	@include media-query(phone) {
+	@include media_query(phone) {
     padding: 40px 0;
-    img {
-      width: $width * 0.35;
-      height: $height * 0.35;
-    }
+		img {
+			max-width: 90%;
+		}
 	}
 }
 
@@ -123,13 +130,11 @@ $track-brand-color: #C4D700;
       line-height: 160%;
 		}
 	}
-	@include media-query(phone) {
+	@include media_query(phone) {
     padding: 0 0 40px 0;
     div.item {
-			float: none;
-			display: block;
-      width: 100%;
-      h4 {
+			@include clear_grid;
+			h4 {
         text-align: center;
       }
     }
@@ -163,5 +168,20 @@ $track-brand-color: #C4D700;
 		color: $color;
 		font-size: em(22.62px);
 		text-decoration: none;
+	}
+}
+
+@mixin article_list {
+	list-style: none;
+	margin-bottom: 18px;
+	color: $text-color;
+	font-size: em(18px);
+	a {
+		margin-left: 10px; 
+		text-decoration: underline;
+		color: $text-color;
+		&:hover {
+			color: $brand-color;
+		}
 	}
 }

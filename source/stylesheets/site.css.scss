@@ -125,28 +125,28 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: em(63.97px);
-	@include media-query(phone) {
+	@include media_query(phone) {
 		font-size: em(57.571px);
 	}
 }
 
 h2 { 
   font-size: em(45.23px);
-	@include media-query(phone) {
+	@include media_query(phone) {
 		font-size: em(40.709px);
 	}
 }
 
 h3 {
   font-size: em(31.98px);
-	@include media-query(phone) {
+	@include media_query(phone) {
 		font-size: em(28.786px);
 	}
 }
 
 h4 {
   font-size: em(22.62px);
-	@include media-query(phone) {
+	@include media_query(phone) {
 		font-size: em(20.362px);
 	}
 }
@@ -155,7 +155,10 @@ div.wrapper {
 	max-width: 960px;
 	width: 100%;
 	margin: auto;
-	@include media-query(phone) {
+	@include media_query(pad) {
+		width: 96%;
+	}
+	@include media_query(phone) {
 		width: 90%;
 	}
 }
@@ -164,21 +167,24 @@ div.wrapper {
 	height: 100px;
 	background-color: $background-color;
 	h1 {
-		@include column(4);
+		@include column(3);
+		font-size: 0;
 		img {
+			padding-top: 20px;
 			max-width: 100%;
-			width: 201px;
-			height: 46px;
 		}
 	}
 	ul {
-		@include column(8);
+		@include column(9);
 		padding: 0;
 		text-align: right;
 		li {
 			display: inline-block;
 			padding-top: 14px;
 			margin-left: 60px;
+			&:first-child {
+				margin-left: 0;
+			}
 			a {
 				text-align: center;
 				color: $text-color;
@@ -196,6 +202,34 @@ div.wrapper {
 			}
 		}
 	}
+	@include media_query(pad) {
+		h1 {
+			img {
+				padding-top: 26px;
+			}
+		}
+	}
+	@include media_query(phone) {
+		height: 64px;
+		h1 {
+			@include column(4);
+		}
+		ul {
+			@include column(8);
+			li {
+				padding-top: 19px;
+				margin-left: 20px;
+				a {
+					div.icon {
+						font-size: em(22px);
+					}
+					div.text {
+						display: none;
+					}
+				}
+			}
+		}
+	}
 }
 
 header#default {
@@ -209,7 +243,7 @@ header#light {
 footer {
 	height: 100px;
 	h2 {
-		@include column(6);
+		@include column(8);
 		font-size: em(20px);
 		font-weight: normal;
 		padding-top: 38px;
@@ -220,7 +254,6 @@ footer {
 				color: $brand-color;
 			}
 			img {
-				max-width: 100%;
 				width: 30px;
 				height: 30px;
 			}
@@ -231,13 +264,16 @@ footer {
 		}
 	}
 	ul {
-		@include column(6);
+		@include column(4);
 		padding: 0;
 		text-align: right;
 		li {
 			display: inline-block;
 			padding-top: 42px;
 			margin-left: 30px;
+			&:first-child {
+				margin-left: 0;
+			}
 			a {
 				color: $light-color;
 				text-decoration: none;
@@ -247,6 +283,28 @@ footer {
 				i {
 					font-size: em(20px);
 				}
+			}
+		}
+	}
+	@include media_query(phone) {
+		height: 60px;
+		h2 {
+			font-size: em(16px);
+			padding-top: 20px;
+			a {
+				img {
+					width: 20px;
+					height: 20px;
+				}
+				span {
+					margin-left: 10px;
+				}
+			}
+		}
+		ul {
+			li {
+				padding-top: 20px;
+				margin-left: 15px;
 			}
 		}
 	}
@@ -266,7 +324,6 @@ section#products {
 			background-color: rgba(155, 155, 155, 0.6);
 		}
 		img {
-			max-width: 100%;
 			width: 128px;
 			height: 128px;
 		}
@@ -276,6 +333,21 @@ section#products {
 		}
 		p {
 			color: $light-color;
+		}
+	}
+	@include media_query(pad) {
+		padding: 50px 0;
+		a {
+			@include column(6);
+			margin-top: 1.04167%;
+			margin-bottom: 1.04167%;
+		}
+	}
+	@include media_query(phone) {
+		padding: 0;
+		a {
+			@include clear_grid;
+			margin: 20px 0;
 		}
 	}
 }
@@ -308,22 +380,24 @@ section#support {
 			}
 		}
 	}
-}	
-
-.article_list {
-	list-style: none;
-	margin-bottom: 18px;
-	color: $text-color;
-	font-size: em(18px);
-	a {
-		margin-left: 10px; 
-		text-decoration: underline;
-		color: $text-color;
-		&:hover {
-			color: $brand-color;
+	@include media_query(pad) {
+		padding: 50px 0;
+		div.item {
+			@include column(6);
+			margin-top: 1.04167%;
+			margin-bottom: 1.04167%;
 		}
 	}
-}
+	@include media_query(phone) {
+		padding: 20px 0;
+		div.item {
+			@include clear_grid;
+			margin: 20px 0;
+		}
+	}
+}	
+
+
 
 section#guides {
 	padding: 50px 0 100px 0;
@@ -338,7 +412,23 @@ section#guides {
 			margin: 20px 0 0 0;
 			padding: 0;
 			li {
-				@extend .article_list;
+				@include article_list;
+			}
+		}
+	}
+	@include media_query(pad) {
+		padding: 10px 0 50px 0;
+		div.item {
+			margin-top: 40px;
+		}
+	}
+	@include media_query(phone) {
+		padding: 20px 0 40px 0;
+		div.item {
+			@include clear_grid;
+			margin-top: 20px;
+			ul {
+				margin: 15px 0 0 0;
 			}
 		}
 	}
@@ -347,25 +437,34 @@ section#guides {
 section#guide {
 	padding: 50px 0;
 	background-color: $light-color;
+	h1.title {
+		color: $brand-color;
+	}
 	div#article {
 		@include column(8);
 	}
 	ul#sidebar {
 		@include column(4);
-		margin: 10px 0 0 0;
+		margin-top: 10px;
 		padding: 0;
 		li {
-			@extend .article_list;
+			@include article_list;
+		}
+	}
+	@include media_query(phone) {
+		padding: 40px 0;
+		div#article {
+			@include clear_grid;
+		}
+		ul#sidebar {
+			@include clear_grid;
+			margin-top: 40px;
 		}
 	}
 }
 
 section#calorie_ios_banner {
 	@include product_banner("#{$image-base-url}/calorie-ios-background.jpg");
-}
-
-section#calorie_ios_screenshot {
-  @include product_screenshot(785px, 1003px);
 }
 
 section#calorie_ios_benefit {
@@ -385,12 +484,10 @@ section#calorie_ios_benefit {
       line-height: 180%;
     }
   }
-	@include media-query(phone) {
+	@include media_query(phone) {
     padding: 0 0 40px 0;
     div.item {
-			float: none;
-			display: block;
-      width: 100%;
+			@include clear_grid;
     }
   }
 }
@@ -411,10 +508,6 @@ section#calorie_mac_banner {
 	@include product_banner("#{$image-base-url}/calorie-mac-background.jpg");
 }
 
-section#calorie_mac_screenshot {
-  @include product_screenshot(952px, 571.2px);
-}
-
 section#calorie_mac_benefit {
   background-color: #fff;
   text-align: center;
@@ -432,12 +525,10 @@ section#calorie_mac_benefit {
       line-height: 180%;
     }
   }
-	@include media-query(phone) {
+	@include media_query(phone) {
     padding: 0 0 40px 0;
     div.item {
-			float: none;
-			display: block;
-      width: 100%;
+			@include clear_grid;
     }
   }
 }
@@ -458,10 +549,6 @@ section#track_iphone_banner {
 	@include product_banner("#{$image-base-url}/track-iphone-background.jpg");
 }
 
-section#track_iphone_screenshot {
-  @include product_screenshot(870px, 802px);
-}
-
 section#track_iphone_why {
   background-color: #fff;
   text-align: center;
@@ -477,8 +564,11 @@ section#track_iphone_why {
     font-size: em(18px);
     line-height: 180%;
   }
-	@include media-query(phone) {
+	@include media_query(phone) {
     padding: 0 0 40px 0;
+		h1 {
+			font-size: em(28.786px);
+		}
   }
 }
 
@@ -513,7 +603,7 @@ section#track_iphone_benefit {
 			color: #F7AB00;
 		}
   }
-	@include media-query(phone) {
+	@include media_query(phone) {
     padding: 0 0 40px 0;
     div.item {
 			float: none;
@@ -608,90 +698,3 @@ section#track_iphone_secondary {
 .clearfix:after {
     clear: both;
 }
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
-
