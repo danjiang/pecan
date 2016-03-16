@@ -61,9 +61,9 @@ en:
       src: en-calorie-ios-screenshot.png
     download: Get the App
     buy: Buy on App Store - Calorie
-    campaign: /
+    campaign: https://itunes.apple.com/us/app/id744835140
     press_kit: Press Kit
-    press_kit_zip: /
+    press_kit_zip: Calorie Press Kit.zip
     benefit:
       why: Calorie is a common unit of food energy. One reason cause obesity is eating food with lots of calorie. So better know your food calorie. To be healthy.
       how: Calculate recommended daily intake through your gender, age and weight. So if you know food calorie, you can control daily energy intake.
@@ -105,9 +105,9 @@ en:
       src: en-calorie-mac-screenshot.png?20160311
     download: Get the App
     buy: Buy on App Store - Calorie
-    campaign: /
+    campaign: https://itunes.apple.com/us/app/id1072738271
     press_kit: Press Kit
-    press_kit_zip: /
+    press_kit_zip: Calorie Press Kit.zip
     benefit:
       why: Calorie is a common unit of food energy. One reason cause obesity is eating food with lots of calorie. So better know your food calorie. To be healthy.
       how: Calculate recommended daily intake through your gender, age and weight. So if you know food calorie, you can control daily energy intake.
@@ -149,9 +149,9 @@ en:
       src: en-track-iphone-screenshot.png
     download: Get Free App
     buy: Buy on App Store - Health Diary
-    campaign: /
+    campaign: https://itunes.apple.com/us/app/id1030688256
     press_kit: Press Kit
-    press_kit_zip: /
+    press_kit_zip: Health Diary Press Kit.zip
     why:
       title: Why we make this app
       detail: Today, most of office people have eating disorders, time confusion, usually sit for a long time and lack of physical exercise. We advocate a healthy lifestyle, you can start with diary to record, understand the reasons, try to react and solve those problems.
