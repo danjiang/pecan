@@ -1,8 +1,6 @@
-$image-base-url: "http://7xr7i8.com1.z0.glb.clouddn.com";
-
 $open-sans: "open-sans", sans-serif;
 $base-font-size: 16px;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.4;
 
 $spacing-unit: 30px;
@@ -14,7 +12,7 @@ $light-dark-color: #222222;
 $light-color: #FFFFFF;
 $grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
 
 $calorie-brand-color: #ea5520;
 $track-brand-color: #C4D700;
@@ -177,7 +175,7 @@ section#product_screenshot {
 	color: $text-color;
 	font-size: em(18px);
 	a {
-		margin-left: 10px; 
+		margin-left: 10px;
 		text-decoration: underline;
 		color: $text-color;
 		&:hover {

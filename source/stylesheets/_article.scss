@@ -23,6 +23,7 @@ dl, dd, ol, ul, figure {
 		max-width: 100%;
 		vertical-align: middle;
 		text-align: center;
+		border: 1px solid #EEEEEE;
 	}
 
 	/**
@@ -61,35 +62,35 @@ dl, dd, ol, ul, figure {
 		font-size: em(48px);
 		@include media_query(phone) {
 			font-size: em(24px);
-		}	
+		}
 	}
 
 	h2 {
 		font-size: em(40px);
 		@include media_query(phone) {
 			font-size: em(20px);
-		}	
+		}
 	}
 
 	h3 {
 		font-size: em(31px);
 		@include media_query(phone) {
 			font-size: em(19px);
-		}	
+		}
 	}
 
 	h4 {
 		font-size: em(25px);
 		@include media_query(phone) {
 			font-size: em(18px);
-		}	
+		}
 	}
 
 	h5 {
 		font-size: em(20px);
 		@include media_query(phone) {
 			font-size: em(17px);
-		}	
+		}
 	}
 
 	h6 {

@@ -130,7 +130,7 @@ h1 {
 	}
 }
 
-h2 { 
+h2 {
   font-size: em(45.23px);
 	@include media_query(phone) {
 		font-size: em(40.709px);
@@ -395,7 +395,7 @@ section#support {
 			margin: 20px 0;
 		}
 	}
-}	
+}
 
 
 
@@ -464,7 +464,7 @@ section#guide {
 }
 
 section#calorie_ios_banner {
-	@include product_banner("#{$image-base-url}/calorie-ios-background.jpg");
+	@include product_banner("/images/calorie-ios-background.jpg");
 }
 
 section#calorie_ios_benefit {
@@ -505,7 +505,7 @@ section#calorie_ios_secondary {
 }
 
 section#calorie_mac_banner {
-	@include product_banner("#{$image-base-url}/calorie-mac-background.jpg");
+	@include product_banner("/images/calorie-mac-background.jpg");
 }
 
 section#calorie_mac_benefit {
@@ -546,7 +546,7 @@ section#calorie_mac_secondary {
 }
 
 section#track_iphone_banner {
-	@include product_banner("#{$image-base-url}/track-iphone-background.jpg");
+	@include product_banner("/images/track-iphone-background.jpg");
 }
 
 section#track_iphone_why {
