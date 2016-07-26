@@ -1,6 +1,6 @@
 ---
 en:
-  browse_happy: 
+  browse_happy:
     part1: You are using an outdated browser. Please
     part2: upgrade your browser
     part3: to improve your experience.
@@ -23,9 +23,9 @@ en:
     track_iphone:
       name: Health Diary
       device: for iPhone
-    timer_ios:
-      name: Timer
-      device: Comming soon
+    workout_iphone:
+      name: Workout
+      device: for iPhone
   guides:
     name: Guides
     title: Guides - Wuhoo
@@ -50,7 +50,7 @@ en:
     name: 简体中文
     title: 切换到中文
   calorie_ios:
-    title: Calorie - Log foods calorie intake and exercises calorie burn - Wuhoo 
+    title: Calorie - Log foods calorie intake and exercises calorie burn - Wuhoo
     description: Calorie is an iOS app. Use Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iCloud. Support iPhone, iPad and Mac.
     icon:
       alt: Calorie for iPhone & iPad App Icon
@@ -94,7 +94,7 @@ en:
         title: Desktop
         detail: Calorie also have a Mac app. If you have a Mac. It will be conveniently used on Desktop.
   calorie_mac:
-    title: Calorie - Log foods calorie intake and exercises calorie burn - Wuhoo 
+    title: Calorie - Log foods calorie intake and exercises calorie burn - Wuhoo
     description: Calorie is a Mac app. Use Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iCloud. Support iPhone, iPad and Mac.
     icon:
       alt: Calorie for Mac App Icon

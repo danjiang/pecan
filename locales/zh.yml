@@ -1,6 +1,6 @@
 ---
 zh:
-  browse_happy: 
+  browse_happy:
     part1: 你正在使用过时的浏览器，请
     part2: 升级你的浏览器
     part3: 来感受更好的上网体验。
@@ -23,9 +23,9 @@ zh:
     track_iphone:
       name: 健康日记
       device: iPhone 版
-    timer_ios:
-      name: 计时器
-      device: 即将上线
+    workout_iphone:
+      name: 训练
+      device: iPhone 版
   guides:
     name: 帮助文档
     title: 帮助文档 - Wuhoo
