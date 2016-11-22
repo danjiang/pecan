@@ -205,3 +205,16 @@ en:
       icloud:
         title: iCloud
         detail: Your everyday health diary support iCloud. You can decide use iCloud or just local store.
+  workout_iphone:
+    title: Workout - Workout Timer - Wuhoo
+    description: Workout is an iOS app. Workout Timer.
+    icon:
+      alt: Workout for iPhone App Icon
+    name: Workout
+    device: for iPhone
+    screenshot:
+      alt: Workout for iPhone App Screenshot
+      src: en-workout-iphone-screenshot.png
+    download: Get Free App
+    buy: Buy on App Store - Wuhoo Workout
+    campaign: http://a.danthought.com/sitewi

@@ -16,6 +16,7 @@ $grey-color-dark: darken($grey-color, 25%);
 
 $calorie-brand-color: #ea5520;
 $track-brand-color: #C4D700;
+$workout-brand-color: #E60012;
 
 @function em($px, $base: $base-font-size) {
     @return ($px / $base) * 1em;

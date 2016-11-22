@@ -397,8 +397,6 @@ section#support {
 	}
 }
 
-
-
 section#guides {
 	padding: 50px 0 100px 0;
 	background-color: $light-color;
@@ -623,6 +621,14 @@ section#track_iphone_buy {
 
 section#track_iphone_secondary {
 	@include product_secondary($track-brand-color);
+}
+
+section#workout_iphone_banner {
+	@include product_banner("/images/workout-iphone-background.jpg");
+}
+
+section#workout_iphone_buy {
+  @include product_buy($workout-brand-color);
 }
 
 /* ==========================================================================

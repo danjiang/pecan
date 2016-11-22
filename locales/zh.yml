@@ -205,3 +205,16 @@ zh:
       icloud:
         title: iCloud
         detail: 日记支持 iCloud 同步，你可以自行决定使用 iCloud，还是本地存储。
+  workout_iphone:
+    title: 训练 - 训练计时器 - Wuhoo
+    description: 训练是一款 iOS 应用，训练计时器。
+    icon:
+      alt: 训练 iPhone 版应用图标
+    name: 训练
+    device: iPhone 版
+    screenshot:
+      alt: 训练 iPhone 版应用截图
+      src: zh-workout-iphone-screenshot.png
+    download: 免费下载
+    buy: 在 App Store 上购买 - Wuhoo 训练
+    campaign: http://b.danthought.com/sitewi
