@@ -156,6 +156,12 @@ section#product_screenshot {
 		-moz-border-radius: 10px;
 		border-radius: 10px;
 	}
+  @include media_query(phone) {
+    padding: 0 0 40px 0;
+    a {
+  		font-size: em(28.786px);
+  	}
+  }
 }
 
 @mixin product_secondary($color) {
@@ -167,6 +173,12 @@ section#product_screenshot {
 		font-size: em(22.62px);
 		text-decoration: none;
 	}
+  @include media_query(phone) {
+    padding: 0 0 40px 0;
+    a {
+      font-size: em(20.362px);
+    }
+  }
 }
 
 @mixin article_list {
