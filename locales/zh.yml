@@ -20,11 +20,11 @@ zh:
     calorie_mac:
       name: 热量助手
       device: Mac 版
-    track_iphone:
-      name: 健康日记
-      device: iPhone 版
     workout_iphone:
       name: 训练
+      device: iPhone 版
+    walk_iphone:
+      name: 走路
       device: iPhone 版
   guides:
     name: 帮助文档
@@ -137,74 +137,6 @@ zh:
       mobile:
         title: 移动
         detail: 热量还有 iPhone 和 iPad 版本的应用，在两个设备上使用会很方便。
-  track_iphone:
-    title: 健康日记 - 健康生活方式从日记开始 - Wuhoo
-    description: 健康日记是一款 iOS 应用，健康生活方式从日记开始。
-    icon:
-      alt: 健康日记 iPhone 版应用图标
-    name: 健康日记
-    device: iPhone 版
-    screenshot:
-      alt: 健康日记 iPhone 版应用截图
-      src: zh-track-iphone-screenshot.png
-    download: 免费下载
-    buy: 在 App Store 上购买 - 健康日记
-    campaign: http://b.danthought.com/sitept
-    press_kit: 媒体资料
-    press_kit_zip: 健康日记媒体资料.zip
-    why:
-      title: 我们为什么制作这个应用
-      detail: 如今，随着生活水平的提高，工作压力的加大，大部分职场人员都有饮食不规律，作息时间混乱，平时也是久坐族，缺乏体育锻炼；我们倡导一种健康的生活方式，你可以从日记开始记录每天的健康情况，理解并且简易分析问题的来源，采取行动从根本上解决问题。
-    benefit:
-      weight:
-        title: 记录体重
-        detail: 肥胖对健康有不利的影响，导致寿命降低或引起健康问题。平时很容易忽视这个问题，不知不觉中增加体重。为什么不从每日记录你的体重做起，它可以提醒你，注意你的体重。
-      water:
-        title: 记录饮水
-        detail: 人体约 75% 重量都是水，水延续着我们的生命，正常人每天从饮食和饮水中摄取水分，我们每天除吃饭外，还需要喝大约 6～8 杯水，这样才能满足人体新陈代谢的需要，所以每天要喝足水。
-      mood:
-        title: 记录心情
-        detail: 情绪影响机体的免疫力，良好的情绪可使机体生理机能处于最佳状态，使免疫抗病系统发挥最大效应。情绪可以改变内分泌和神经系统功能，影响精神健康。好心情也是一种健康的表现。
-      target:
-        title: 记录目标
-        detail: 吃垃圾食品、吸烟和长时间看电视，这些坏习惯对健康很不利，而常吃水果、饭后散步和有计划的体育锻炼，这些好习惯有助于健康，改掉坏习惯，养成好习惯，习惯的养成贵在坚持，做好记录，提醒自己。
-    feature:
-      photo:
-        title: 照片
-        detail: 日记中添加照片，用相机立即拍摄一张或者从照片库中选择一张照片都行。
-      diary:
-        title: 日记
-        detail: 用文字记录每天发生了什么，健康和我们生活息息相关，写点什么都行。
-      weight:
-        title: 体重
-        detail: 日记中记录体重，左右滑动尺子来改变体重，简单快速，修改体重也是同样的。
-      bmi:
-        title: BMI
-        detail: 录入了身高后，每次记录体重后就可以自动计算出 BMI 和 BMI 等级。
-      bfr:
-        title: 体脂率
-        detail: 录入了年龄和性别后，每次记录体重后就可以自动计算出身体中的脂肪含量。
-      water:
-        title: 饮水
-        detail: 你喝足水了吗？日记中记录饮水，每天 8 杯水，它可以提醒你要喝足水。
-      mood:
-        title: 心情
-        detail: 今天心情怎么样？微笑，开心，中立，难过，担心，还是愤怒。
-      target:
-        title: 目标
-        detail: 日记中记录目标，可以记录 5 种你每天想完成的目标，用来改正坏习惯。
-      timeline:
-        title: 时间线
-        detail: 时间线中呈现了最新到最旧的日记，这种方式来回顾日记很方便。
-      calendar:
-        title: 日历
-        detail: 以日历的方式来快速查找日记，这里可以添加任何一天的日记，避免遗漏。
-      analysis:
-        title: 分析
-        detail: 以图表的方式来分析体重变化，每天饮水量，心情成份比例和目标达成次数。
-      icloud:
-        title: iCloud
-        detail: 日记支持 iCloud 同步，你可以自行决定使用 iCloud，还是本地存储。
   workout_iphone:
     title: 训练 - 训练计时器 - Wuhoo
     description: 训练是一款 iOS 应用，训练计时器。

@@ -20,11 +20,11 @@ en:
     calorie_mac:
       name: Calorie
       device: for Mac
-    track_iphone:
-      name: Health Diary
-      device: for iPhone
     workout_iphone:
       name: Workout
+      device: for iPhone
+    walk_iphone:
+      name: Walk
       device: for iPhone
   guides:
     name: Guides
@@ -137,74 +137,6 @@ en:
       mobile:
         title: Mobile
         detail: Calorie also have an iPhone and iPad app. It will be conveniently used on both devices.
-  track_iphone:
-    title: Health Diary - Healthy lifestyle start with diary - Wuhoo
-    description: Health Diary is an iOS app. Healthy lifestyle start with diary.
-    icon:
-      alt: Health Diary for iPhone App Icon
-    name: Health Diary
-    device: for iPhone
-    screenshot:
-      alt: Health Diary for iPhone App Screenshot
-      src: en-track-iphone-screenshot.png
-    download: Get Free App
-    buy: Buy on App Store - Health Diary
-    campaign: http://a.danthought.com/sitept
-    press_kit: Press Kit
-    press_kit_zip: Health Diary Press Kit.zip
-    why:
-      title: Why we make this app
-      detail: Today, most of office people have eating disorders, time confusion, usually sit for a long time and lack of physical exercise. We advocate a healthy lifestyle, you can start with diary to record, understand the reasons, try to react and solve those problems.
-    benefit:
-      weight:
-        title: Record Weight
-        detail: Obesity may have an adverse effect on health, leading to reduced life expectancy or increased health problems. It is very easy to ignore this problem and increase weight. Why not begin to track your weight. It can remind you to care your weight.
-      water:
-        title: Record Water
-        detail: Your body is composed of about 60% water. The functions of these bodily fluids include digestion, absorption, circulation, creation of saliva, transportation of nutrients, and maintenance of body temperature. You should drink enough water everyday.
-      mood:
-        title: Record Mood
-        detail: Stop negative emotions. The longer you let them control your thoughts, the longer you'll suffer, psychologically and physically. It's important to reduce stress. Breathe deeply for a few minutes and you may relax and let go of worries.
-      target:
-        title: Record Target
-        detail: Eating junk food, smoking and watching TV all day. Those kind of bad habits are unhealthy. Eat breakfast, walk after lunch and do some exercises. Those kind of good habits are healthy. Get rid of bad habits. Form good habits.
-    feature:
-      photo:
-        title: Photo
-        detail: Add photo to diary. Use camera to take photo or choose exist one from photo library is both fine.
-      diary:
-        title: Diary
-        detail: Try to write something about what happened everyday. Health is connecting with our life.
-      weight:
-        title: Weight
-        detail: Record weight in diary. Scroll ruler left or right to change weight. It is simple and quickly.
-      bmi:
-        title: BMI
-        detail: After set up your height. Automatically calculate BMI and BMI level after record weight.
-      bfr:
-        title: BFR
-        detail: After set up your age and gender. Automatically calculate fat rate of body after record weight.
-      water:
-        title: Water
-        detail: Record water in diary. It help you drink eight glasses of water with logs and chart.
-      mood:
-        title: Mood
-        detail: Record mood in diary. Six types to track. How are you? Smile, happy, neutral, sad, worry or angry.
-      target:
-        title: Target
-        detail: Record target in diary. Track five goals you want to finish every day. Get rid of your bad habit.
-      timeline:
-        title: Timeline
-        detail: Review everyday diary through timeline. It show diaries from the newest to oldest.
-      calendar:
-        title: Calendar
-        detail: Find specific diary through calendar. You can add diary for any day here. Never missing a day.
-      analysis:
-        title: Analysis
-        detail: Analysis of weight change, water drinking amount, mood and target finish count through charts.
-      icloud:
-        title: iCloud
-        detail: Your everyday health diary support iCloud. You can decide use iCloud or just local store.
   workout_iphone:
     title: Workout - Workout Timer - Wuhoo
     description: Workout is an iOS app. Workout Timer.
