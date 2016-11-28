@@ -14,6 +14,9 @@ en:
     name: Products
     title: Products - Wuhoo
     description: Products - Wuhoo
+    purchase_faq:
+      name: Purchase and Refund
+      device: ""
     calorie_ios:
       name: Calorie
       device: for iPhone & iPad
