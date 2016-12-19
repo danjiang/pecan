@@ -14,6 +14,9 @@ zh:
     name: 产品目录
     title: 产品目录 - Wuhoo
     description: 产品目录 - Wuhoo
+    nutrition_faq:
+      name: 食物营养
+      device: ""
     purchase_faq:
       name: 购买与退款
       device: ""

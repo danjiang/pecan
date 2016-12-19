@@ -14,6 +14,9 @@ en:
     name: Products
     title: Products - Wuhoo
     description: Products - Wuhoo
+    nutrition_faq:
+      name: Food Nutrition
+      device: ""
     purchase_faq:
       name: Purchase and Refund
       device: ""
