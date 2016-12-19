@@ -141,14 +141,14 @@ en:
         title: Mobile
         detail: Calorie also have an iPhone and iPad app. It will be conveniently used on both devices.
   workout_iphone:
-    title: Workout - Workout Timer - Wuhoo
-    description: Workout is an iOS app. Workout Timer.
+    title: Wuhoo Workout - Workout Timer - Wuhoo
+    description: Wuhoo Workout is an iPhone app. Create workout timer. Let it help you doing workout.
     icon:
-      alt: Workout for iPhone App Icon
+      alt: Wuhoo Workout for iPhone App Icon
     name: Workout
     device: for iPhone
     screenshot:
-      alt: Workout for iPhone App Screenshot
+      alt: Wuhoo Workout for iPhone App Screenshot
       src: en-workout-iphone-screenshot.png
     download: Get it free
     buy: Buy on App Store - Wuhoo Workout
