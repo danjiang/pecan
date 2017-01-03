@@ -58,7 +58,7 @@ zh:
     title: Switch to English
   calorie_ios:
     title: 热量 - 记录食物热量摄入和运动热量消耗 - Wuhoo
-    description: Wuhoo 热量是一款 iOS 应用，使用 Wuhoo 热量应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，支持 iCloud，同时支持 iPhone，iPad 和 Mac。
+    description: Wuhoo 热量是一款 iOS 应用，使用 Wuhoo 热量应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，同时支持 iPhone，iPad 和 Mac。
     icon:
       alt: Wuhoo 热量 iPhone 和 iPad 版应用图标
     name: 热量
@@ -94,15 +94,15 @@ zh:
       daily:
         title: 日常
         detail: 热量记录体现了你日常热量摄入和热量消耗，自动计算出你每日热量摄入的净值。
-      icloud:
-        title: iCloud
-        detail: 记录功能支持 iCloud 同步，你可以自行决定使用 iCloud，还是本地存储。
+      nutritions:
+        title: 营养
+        detail: 食物详细不仅可以查看热量，还可以看到蛋白质、碳水化合物、脂肪和钠的含量。
       desktop:
         title: Mac
         detail: 热量还有 Mac 版的应用，如果你拥有 Mac，在其上使用会很方便。
   calorie_mac:
     title: 热量 - 记录食物热量摄入和运动热量消耗 - Wuhoo
-    description: Wuhoo 热量是一款 Mac 应用，使用 Wuhoo 热量应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，支持 iCloud，同时支持 iPhone，iPad 和 Mac。
+    description: Wuhoo 热量是一款 Mac 应用，使用 Wuhoo 热量应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，同时支持 iPhone，iPad 和 Mac。
     icon:
       alt: Wuhoo 热量 Mac 版应用图标
     name: 热量
@@ -138,9 +138,9 @@ zh:
       daily:
         title: 日常
         detail: 热量记录体现了你日常热量摄入和热量消耗，自动计算出你每日热量摄入的净值。
-      icloud:
-        title: iCloud
-        detail: 记录功能支持 iCloud 同步，你可以自行决定使用 iCloud，还是本地存储。
+      nutritions:
+        title: 营养
+        detail: 食物详细不仅可以查看热量，还可以看到蛋白质、碳水化合物、脂肪和钠的含量。
       mobile:
         title: 移动
         detail: 热量还有 iPhone 和 iPad 版本的应用，在两个设备上使用会很方便。

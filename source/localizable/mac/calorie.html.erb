@@ -26,7 +26,7 @@ header: light
 </section>
 <section id="calorie_mac_feature">
   <div class="wrapper">
-		<% { search: "fa-search", categories: "fa-folder-open", brands: "fa-shopping-cart", logs: "fa-edit", recommend: "fa-thumbs-o-up", daily: "fa-calendar", icloud: "fa-cloud", mobile: "fa-tablet" }.each do |feature, icon| %>
+		<% { search: "fa-search", categories: "fa-folder-open", brands: "fa-shopping-cart", logs: "fa-edit", recommend: "fa-thumbs-o-up", daily: "fa-calendar", nutritions: "fa-lemon-o", mobile: "fa-tablet" }.each do |feature, icon| %>
 			<div class="item">
 				<h4><i class="fa <%= icon %>"></i><%= I18n.t("calorie_mac.feature.#{ feature.to_s }.title") %></h4>
 				<p><%= I18n.t("calorie_mac.feature.#{ feature.to_s }.detail") %></p>

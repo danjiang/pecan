@@ -27,7 +27,7 @@ app: 744835140
 </section>
 <section id="calorie_ios_feature">
   <div class="wrapper">
-		<% { search: "fa-search", categories: "fa-folder-open", brands: "fa-shopping-cart", logs: "fa-edit", recommend: "fa-thumbs-o-up", daily: "fa-calendar", icloud: "fa-cloud", desktop: "fa-desktop" }.each do |feature, icon| %>
+		<% { search: "fa-search", categories: "fa-folder-open", brands: "fa-shopping-cart", logs: "fa-edit", recommend: "fa-thumbs-o-up", daily: "fa-calendar", nutritions: "fa-lemon-o", desktop: "fa-desktop" }.each do |feature, icon| %>
 			<div class="item">
 				<h4><i class="fa <%= icon %>"></i><%= I18n.t("calorie_ios.feature.#{ feature.to_s }.title") %></h4>
 				<p><%= I18n.t("calorie_ios.feature.#{ feature.to_s }.detail") %></p>

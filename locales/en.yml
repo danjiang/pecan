@@ -58,7 +58,7 @@ en:
     title: 切换到中文
   calorie_ios:
     title: Calorie - Log foods calorie intake and exercises calorie burn - Wuhoo
-    description: Wuhoo Calorie is an iOS app. Use Wuhoo Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iCloud. Support iPhone, iPad and Mac.
+    description: Wuhoo Calorie is an iOS app. Use Wuhoo Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iPhone, iPad and Mac.
     icon:
       alt: Wuhoo Calorie for iPhone & iPad App Icon
     name: Calorie
@@ -94,15 +94,15 @@ en:
       daily:
         title: Daily Intake
         detail: Logs show your daily calorie intake and calorie burn. Summary everyday calorie net automatically.
-      icloud:
-        title: iCloud
-        detail: Your everyday calorie logs support iCloud. You can decide use iCloud or just local store.
+      nutritions:
+        title: Nutritions
+        detail: Food detail show much more nutrtions than calorie. Such as protein, carbohydrate, fat and sodium.
       desktop:
         title: Desktop
         detail: Calorie also have a Mac app. If you have a Mac. It will be conveniently used on Desktop.
   calorie_mac:
     title: Wuhoo Calorie - Log foods calorie intake and exercises calorie burn - Wuhoo
-    description: Wuhoo Calorie is a Mac app. Use Wuhoo Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iCloud. Support iPhone, iPad and Mac.
+    description: Wuhoo Calorie is a Mac app. Use Wuhoo Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iPhone, iPad and Mac.
     icon:
       alt: Wuhoo Calorie for Mac App Icon
     name: Calorie
@@ -138,9 +138,9 @@ en:
       daily:
         title: Daily Intake
         detail: Logs show your daily calorie intake and calorie burn. Summary everyday calorie net automatically.
-      icloud:
-        title: iCloud
-        detail: Your everyday calorie logs support iCloud. You can decide use iCloud or just local store.
+      nutritions:
+        title: Nutritions
+        detail: Food detail show much more nutrtions than calorie. Such as protein, carbohydrate, fat and sodium.
       mobile:
         title: Mobile
         detail: Calorie also have an iPhone and iPad app. It will be conveniently used on both devices.
