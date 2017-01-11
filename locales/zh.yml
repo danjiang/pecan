@@ -29,6 +29,18 @@ zh:
     workout_iphone:
       name: 训练
       device: iPhone 版
+    tabata_iphone:
+      name: Tabata
+      device: iPhone 版
+    scientific7_iphone:
+      name: 科学 7 分钟
+      device: for iPhone
+    advance7_iphone:
+      name: 高级 7 分钟
+      device: iPhone 版
+    track_iphone:
+      name: 记录
+      device: iPhone 版
     walk_iphone:
       name: 走路
       device: iPhone 版
@@ -157,3 +169,40 @@ zh:
     download: 免费下载
     buy: 在 App Store 上购买 - Wuhoo 训练
     campaign: http://b.danthought.com/sitewi
+    feature:
+      timer:
+        title: 自由创建你的训练计时器
+        detail: 设定倒计时，编辑多个锻炼或休息步骤，再指定循环次数，一个训练计时器就完成了；锻炼步骤可以选择衡量方式是时间或次数；步骤可以附加图片和文字描述，避免忘记动作要领。
+      voice:
+        title: 伴随语音提示，开始训练
+        detail: 每一个步骤都有友好的语音提示，当前步骤快结束时也有相应的语音提示，你在训练的过程中可以完全根据语音提示来完成。
+      logs:
+        title: 根据感受记录训练日志
+        detail: 训练结束时，记录训练日志，可以根据你的训练感受，评价这次训练：很轻松、刚刚好、太难了；训练日志可以按时间线回顾。
+    single:
+      title: 单个训练计时器应用
+      detail: 不需要自己手动创建训练计时器，下载就可以开始训练啦。
+      tabata:
+        icon:
+          alt: Wuhoo Tabata iPhone 版应用图标
+        title: Tabata
+        detail: 为 Tabata 间歇训练、自重训练、跑步、骑行或者任何间歇健身训练而设计。
+        download: 立即下载
+        buy: 在 App Store 上购买 - Wuhoo Tabata
+        campaign: http://b.danthought.com/siteti
+      scientific7:
+        icon:
+          alt: Wuhoo 科学 7 分钟训练 iPhone 版应用图标
+        title: 科学 7 分钟训练
+        detail: 只需一把椅子和一面墙就可以完成科学 7 分钟训练。
+        download: 立即下载
+        buy: 在 App Store 上购买 - Wuhoo 科学 7 分钟训练
+        campaign: http://b.danthought.com/sites7i
+      advance7:
+        icon:
+          alt: Wuhoo 高级 7 分钟训练 iPhone 版应用图标
+        title: 高级 7 分钟训练
+        detail: 只需一对哑铃就可以完成高级 7 分钟训练。
+        download: 立即下载
+        buy: 在 App Store 上购买 - Wuhoo 高级 7 分钟训练
+        campaign: http://b.danthought.com/sitea7i

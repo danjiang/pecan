@@ -314,6 +314,8 @@ section#products {
 	padding: 100px 0;
 	a {
 		@include column(3);
+    margin-top: 1.04167%;
+    margin-bottom: 1.04167%;
 		display: block;
 		text-align: center;
 		background-color: rgba(74, 74, 74, 0.6);
@@ -549,6 +551,133 @@ section#workout_iphone_banner {
 
 section#workout_iphone_buy {
   @include product_buy($workout-brand-color);
+}
+
+section#workout_iphone_feature {
+  background-color: #fff;
+  text-align: center;
+  padding: 0 0 50px 0;
+  div.item {
+    margin-bottom: 50px;
+    div.icon {
+      @include column(2);
+      i {
+        color: $workout-brand-color;
+        font-size: em(120px);
+      }
+    }
+    div.text {
+      @include column(10);
+      text-align: left;
+      h3 {
+        color: $workout-brand-color;
+      }
+      p {
+        color: $text-color;
+        font-size: em(18px);
+        line-height: 180%;
+      }
+    }
+  }
+	@include media_query(phone) {
+    padding: 0 0 20px 0;
+    div.item {
+      margin-bottom: 20px;
+      div.icon {
+        @include clear_grid;
+      }
+      div.text {
+        @include clear_grid;
+        h3 {
+          text-align: center;
+        }
+        p {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+section#workout_iphone_divider {
+  background-color: #fff;
+  padding: 0 0 100px 0;
+  div.divider {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+  @include media_query(phone) {
+    padding: 0 0 40px 0;
+  }
+}
+
+section#workout_iphone_single {
+  background-color: #fff;
+  text-align: center;
+  padding: 0 0 100px 0;
+  p {
+    margin-top: 20px;
+    font-size: em(22.62px);
+  }
+  div.apps {
+    width: 80%;
+    margin: 100px auto 0 auto;
+    div.item {
+      margin-bottom: 50px;
+      div.icon {
+        @include column(3);
+        img {
+          width: 136px;
+          height: 136px;
+        }
+      }
+      div.text {
+        @include column(9);
+        text-align: left;
+        h4 {
+          font-weight: bold;
+        }
+        p {
+          font-size: em(16px);
+          line-height: 180%;
+          margin: 7px 0;
+        }
+        a {
+          color: $workout-brand-color;
+          font-size: em(22.62px);
+          font-weight: bold;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  @include media_query(phone) {
+    padding: 0 0 40px 0;
+    h2 {
+      font-size: em(28.786px);
+    }
+    p {
+      font-size: em(16px);
+    }
+    div.apps {
+      width: 100%;
+      margin: 40px auto 0 auto;
+      div.item {
+        margin-bottom: 40px;
+        div.icon {
+          @include clear_grid;
+        }
+        div.text {
+          @include clear_grid;
+          text-align: center;
+          a {
+            font-size: em(16px);
+          }
+        }
+      }
+    }
+  }
 }
 
 /* ==========================================================================

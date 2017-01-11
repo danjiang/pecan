@@ -29,6 +29,18 @@ en:
     workout_iphone:
       name: Workout
       device: for iPhone
+    tabata_iphone:
+      name: Tabata
+      device: for iPhone
+    scientific7_iphone:
+      name: 7 Mins
+      device: for iPhone
+    advance7_iphone:
+      name: 7 Mins
+      device: for iPhone
+    track_iphone:
+      name: Track
+      device: for iPhone
     walk_iphone:
       name: Walk
       device: for iPhone
@@ -157,3 +169,40 @@ en:
     download: Get it free
     buy: Buy on App Store - Wuhoo Workout
     campaign: http://a.danthought.com/sitewi
+    feature:
+      timer:
+        title: Create your own workout timer
+        detail: Set countdown. Add multiple exercise steps or rest steps. Set repeat times. A workout timer is done. Measure exercise step with duration or count. Step can plus photo and text for detail description.
+      voice:
+        title: Doing workout with voice guide
+        detail: There are friendly voice guides for every workout steps. When each step is coming to the end. There is also voice guide to remind you. You can do workout only with voice guide totally.
+      logs:
+        title: Log workout with your feeling
+        detail: When workout timer is over. Log your workout. You choose your feeling for this workout. It is so easy, just right or too hard. You can review your workout logs through timeline.
+    single:
+      title: Single Workout Timer Apps
+      detail: No need manually create workout timer. Just download to do workout.
+      tabata:
+        icon:
+          alt: Wuhoo Tabata for iPhone App Icon
+        title: Tabata
+        detail: Designed for tabata interval training, weight training, running, cycling, or any interval fitness training.
+        download: Get it now
+        buy: Buy on App Store - Wuhoo Tabata
+        campaign: http://a.danthought.com/siteti
+      scientific7:
+        icon:
+          alt: Wuhoo Scientific 7 Minutes Workout for iPhone App Icon
+        title: Scientific 7 Minutes Workout
+        detail: Only need a chair and a wall to start scientific 7 minutes workout.
+        download: Get it now
+        buy: Buy on App Store - Wuhoo Scientific 7 Minutes Workout
+        campaign: http://a.danthought.com/sites7i
+      advance7:
+        icon:
+          alt: Wuhoo Advance 7 Minutes Workout for iPhone App Icon
+        title: Advance 7 Minutes Workout
+        detail: Only need a couple of dumbbells to start advance 7 minutes workout.
+        download: Get it now
+        buy: Buy on App Store - Wuhoo Advance 7 Minutes Workout
+        campaign: http://a.danthought.com/sitea7i

@@ -14,6 +14,50 @@ app: 1176523430
 <section id="product_screenshot">
 	<img alt="<%= I18n.t("workout_iphone.screenshot.alt") %>" src="/images/<%= I18n.t("workout_iphone.screenshot.src") %>">
 </section>
+<section id="workout_iphone_feature">
+  <div class="wrapper">
+		<% { timer: "fa-plus-circle", voice: "fa-play-circle", logs: "fa-check-circle" }.each do |feature, icon| %>
+			<div class="item">
+        <div class="icon">
+          <i class="fa <%= icon %>"></i>
+        </div>
+        <div class="text">
+          <h3><%= I18n.t("workout_iphone.feature.#{ feature.to_s }.title") %></h3>
+				  <p><%= I18n.t("workout_iphone.feature.#{ feature.to_s }.detail") %></p>
+        </div>
+        <div class="clearfix"></div>
+			</div>
+		<% end %>
+  </div>
+</section>
 <section id="workout_iphone_buy">
 	<a href="<%= I18n.t("workout_iphone.campaign") %>" title="<%= I18n.t("workout_iphone.buy") %>"><%= I18n.t("workout_iphone.download") %></a>
+</section>
+<section id="workout_iphone_divider">
+  <div class="wrapper">
+    <div class="divider"></div>
+  </div>
+</section>
+<section id="workout_iphone_single">
+  <div class="wrapper">
+    <h2><%= I18n.t("workout_iphone.single.title") %></h2>
+    <p><%= I18n.t("workout_iphone.single.detail") %></p>
+    <div class="apps">
+      <% ["tabata", "scientific7", "advance7"].each do |single| %>
+        <div class="item">
+          <div class="icon">
+            <img alt="<%= I18n.t("workout_iphone.single.#{ single }.icon.alt") %>" src="/images/single-icon-<%= single %>-iphone.png">
+          </div>
+          <div class="text">
+            <h4><%= I18n.t("workout_iphone.single.#{ single }.title") %></h4>
+            <p><%= I18n.t("workout_iphone.single.#{ single }.detail") %></p>
+            <a href="<%= I18n.t("workout_iphone.single.#{ single }.campaign") %>" title="<%= I18n.t("workout_iphone.single.#{ single }.buy") %>">
+              <i class="fa fa-download"></i>&nbsp;&nbsp;<%= I18n.t("workout_iphone.single.#{ single }.download") %>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      <% end %>
+    </div>
+  </div>
 </section>
