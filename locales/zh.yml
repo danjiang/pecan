@@ -38,8 +38,8 @@ zh:
     advance7_iphone:
       name: 高级 7 分钟
       device: iPhone 版
-    track_iphone:
-      name: 记录
+    habit_iphone:
+      name: 习惯
       device: iPhone 版
     walk_iphone:
       name: 走路

@@ -25,19 +25,11 @@
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>http://wuhoo.co/iphone/track/</loc>
+		<loc>http://wuhoo.co/iphone/workout/</loc>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>http://wuhoo.co/en/guides/iphone/track/in-app-purchase/</loc>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>http://wuhoo.co/en/guides/iphone/track/edit-target/</loc>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>http://wuhoo.co/en/guides/iphone/track/how-to-calculate-bmi-and-bfr/</loc>
+		<loc>http://wuhoo.co/en/guides/iphone/workout/how-to-create-workout/</loc>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -61,7 +53,15 @@
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>http://wuhoo.co/en/guides/mac/calorie/calculate-recommended-daily-intake/</loc>
+		<loc>http://wuhoo.co/en/guides/faq/nutrition/calculate-recommended-daily-intake/</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+  <url>
+    <loc>http://wuhoo.co/en/guides/faq/purchase/how-to-refund-in-app-store/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+		<loc>http://wuhoo.co/en/guides/faq/purchase/what-is-app-store-in-app-purchase/</loc>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -85,19 +85,11 @@
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>http://wuhoo.co/zh/iphone/track/</loc>
+		<loc>http://wuhoo.co/zh/iphone/workout/</loc>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>http://wuhoo.co/zh/guides/iphone/track/in-app-purchase/</loc>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>http://wuhoo.co/zh/guides/iphone/track/edit-target/</loc>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>http://wuhoo.co/zh/guides/iphone/track/how-to-calculate-bmi-and-bfr/</loc>
+		<loc>http://wuhoo.co/zh/guides/iphone/workout/how-to-create-workout/</loc>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -121,7 +113,27 @@
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-		<loc>http://wuhoo.co/zh/guides/mac/calorie/calculate-recommended-daily-intake/</loc>
+		<loc>http://wuhoo.co/zh/guides/faq/nutrition/salt-and-sodium/</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+  <url>
+		<loc>http://wuhoo.co/zh/guides/faq/nutrition/how-to-measure-high-calorie-food/</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+  <url>
+		<loc>http://wuhoo.co/zh/guides/faq/nutrition/human-body-needed-nutritions-and-minerals/</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+  <url>
+		<loc>http://wuhoo.co/zh/guides/faq/nutrition/calculate-recommended-daily-intake/</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+  <url>
+		<loc>http://wuhoo.co/zh/guides/faq/purchase/what-is-app-store-in-app-purchase/</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+  <url>
+		<loc>http://wuhoo.co/zh/guides/faq/purchase/how-to-refund-in-app-store/</loc>
 		<changefreq>monthly</changefreq>
 	</url>
 </urlset>

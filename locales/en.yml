@@ -38,8 +38,8 @@ en:
     advance7_iphone:
       name: 7 Mins
       device: for iPhone
-    track_iphone:
-      name: Track
+    habit_iphone:
+      name: Habit
       device: for iPhone
     walk_iphone:
       name: Walk
