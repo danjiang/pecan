@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title><%= I18n.t "#{ current_page.data.name }.title" %></title>
+		<meta name="description" content="<%= I18n.t "#{ current_page.data.name }.description" %>">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<% if current_page.data.app %><meta name="apple-itunes-app" content="app-id=<%= current_page.data.app %>"><% end %>
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag "modernizr-2.8.3.min" %>
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "//hm.baidu.com/hm.js?89354104a5eab8f2071723570f68c87a";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+	</head>
+	<body id="plain">
+		<%= yield %>
+	</body>
+</html>

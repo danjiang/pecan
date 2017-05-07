@@ -14,8 +14,9 @@ $grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: darken($grey-color, 25%);
 
-$calorie-brand-color: #ea5520;
+$calorie-brand-color: #EA5520;
 $workout-brand-color: #E60012;
+$walk-brand-color: #735B9F;
 
 @function em($px, $base: $base-font-size) {
     @return ($px / $base) * 1em;

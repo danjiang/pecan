@@ -43,7 +43,7 @@ zh:
       device: iPhone 版
     walk_iphone:
       name: 走路
-      device: 即将上线
+      device: iPhone 版
   guides:
     name: 帮助文档
     title: 帮助文档 - Wuhoo
@@ -68,6 +68,10 @@ zh:
     icon: usd
     name: English
     title: Switch to English
+  policy:
+    name: 隐私政策
+    title: 隐私政策 - Wuhoo
+    description: 隐私政策 - Wuhoo
   calorie_ios:
     title: 热量 - 记录食物热量摄入和运动热量消耗 - Wuhoo
     description: Wuhoo 热量是一款 iOS 应用，使用 Wuhoo 热量应用来浏览和搜索食物或锻炼，记录你的热量摄入或者热量消耗，自动计算每日摄入热量的净值，还可以轻松同每日所需基本热量进行比较，成为你的好助手，同时支持 iPhone，iPad 和 Mac。
@@ -206,3 +210,26 @@ zh:
         download: 立即下载
         buy: 在 App Store 上购买 - Wuhoo 高级 7 分钟训练
         campaign: http://b.danthought.com/sitea7i
+  walk_iphone:
+    title: 走路 - 计步器和食物营养 - Wuhoo
+    description: Wuhoo 走路是一款 iPhone 应用，查看每日走路步数和每日目标完成进度，了解食物常见营养元素。
+    icon:
+      alt: Wuhoo 走路 iPhone 版应用图标
+    name: 走路
+    device: iPhone 版
+    screenshot:
+      alt: Wuhoo 走路 iPhone 版应用截图
+      src: zh-walk-iphone-screenshot.png
+    download: 免费下载
+    buy: 在 App Store 上购买 - Wuhoo 走路
+    campaign: http://b.danthought.com/sitesi
+    feature:
+      home:
+        title: 了解每日走路步数
+        detail: 查看每日走路步数和每日目标完成进度，走路一共消耗了多少热量，相当于吃多少个某种食物的热量摄入，分享每日走路步数。
+      food:
+        title: 了解食物常见营养元素
+        detail: 左右滑动底部的食物区域来浏览食物资料包中不同食物，单击食物来了解其热量和常见营养元素，分享食物常见营养元素。
+      walks:
+        title: 回顾最近走路步数
+        detail: 回顾最近 7 天的走路步数，为保持良好的身材每天最好走 10000 步，试着完成这个每日目标，或者根据你的当前情况来调整目标。

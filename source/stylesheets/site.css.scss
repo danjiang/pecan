@@ -118,6 +118,10 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+body#plain {
+  background-color: $light-color;
+}
+
 h1, h2, h3, h4 {
 	padding: 0;
 	margin: 0;
@@ -674,6 +678,60 @@ section#workout_iphone_single {
           a {
             font-size: em(16px);
           }
+        }
+      }
+    }
+  }
+}
+
+section#walk_iphone_banner {
+	@include product_banner("/images/walk-iphone-background.jpg");
+}
+
+section#walk_iphone_buy {
+  @include product_buy($walk-brand-color);
+}
+
+section#walk_iphone_feature {
+  background-color: #fff;
+  text-align: center;
+  padding: 0 0 50px 0;
+  div.item {
+    margin-bottom: 50px;
+    div.icon {
+      @include column(2);
+      i {
+        color: $walk-brand-color;
+        font-size: em(120px);
+      }
+    }
+    div.text {
+      @include column(10);
+      text-align: left;
+      h3 {
+        color: $walk-brand-color;
+      }
+      p {
+        color: $text-color;
+        font-size: em(18px);
+        line-height: 180%;
+      }
+    }
+  }
+	@include media_query(phone) {
+    padding: 0 0 20px 0;
+    div.item {
+      margin-bottom: 20px;
+      div.icon {
+        @include clear_grid;
+      }
+      div.text {
+        @include clear_grid;
+        h3 {
+          text-align: center;
+        }
+        p {
+          text-align: left;
         }
       }
     }

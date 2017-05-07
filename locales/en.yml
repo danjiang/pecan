@@ -43,7 +43,7 @@ en:
       device: for iPhone
     walk_iphone:
       name: Walk
-      device: Comming Soon
+      device: for iPhone
   guides:
     name: Guides
     title: Guides - Wuhoo
@@ -68,6 +68,10 @@ en:
     icon: cny
     name: 简体中文
     title: 切换到中文
+  policy:
+    name: Privacy Policy
+    title: Privacy Policy - Wuhoo
+    description: Privacy Policy - Wuhoo
   calorie_ios:
     title: Calorie - Log foods calorie intake and exercises calorie burn - Wuhoo
     description: Wuhoo Calorie is an iOS app. Use Wuhoo Calorie app browse and search foods or exercises. Log your energy intake or energy burn. Compare with recommended daily intake. Support iPhone, iPad and Mac.
@@ -206,3 +210,26 @@ en:
         download: Get it now
         buy: Buy on App Store - Wuhoo Advance 7 Minutes Workout
         campaign: http://a.danthought.com/sitea7i
+  walk_iphone:
+    title: Wuhoo Walk - Step counter with food nutritions - Wuhoo
+    description: Wuhoo Walk is an iPhone app. See daily walk steps and daily goal progress. Know food macronutrients.
+    icon:
+      alt: Wuhoo Walk for iPhone App Icon
+    name: Walk
+    device: for iPhone
+    screenshot:
+      alt: Wuhoo Walk for iPhone App Screenshot
+      src: en-walk-iphone-screenshot.png
+    download: Get it free
+    buy: Buy on App Store - Wuhoo Walk
+    campaign: http://a.danthought.com/sitesi
+    feature:
+      home:
+        title: Know daily walk steps
+        detail: See daily walk steps and daily goal progress. How much calories are burned for the walk. Quantity of food need intake which are equal for those calories. Share daily walk steps.
+      food:
+        title: Know food macronutrients
+        detail: Swipe left or right on bottom food to browse different foods in a food package. Single tap on food to know its calorie and macronutrients. Share food macronutrients.
+      walks:
+        title: Review latest walk steps
+        detail: Review walk steps in latest 7 days. Take 10000 steps a day to keep fit. Try to achieve this daily goal. Or change this daily goal for your current situation.
